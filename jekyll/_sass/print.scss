@@ -1,0 +1,86 @@
+/*
+ *  Print Audit Otter styles
+ *  Version: 5/24/2013
+ *	Author: aaron@webmeadow.com
+ *
+ */
+
+
+// Audit Otter Logo
+h1#site-name {
+	font-size: 26pt;
+	a { 
+		text-decoration: none;
+		color: black;
+	}
+}
+
+// Slogan on next line
+h2#site-slogan em { display: block;}
+
+// Core Sizing
+body { font-size: 12pt;}
+p { margin: 0 0 1.5em;}
+ul, ol { 
+	margin-bottom: 1.5em;
+	li { padding: 5px;}
+}
+h2 { 
+	margin-top: 2em;
+	font-size: 20pt;
+}
+h3 { 
+	margin: 1em 0 .25em;
+	font-size: 16pt;
+	#why & { margin-top: 0;}
+}
+h4 { 
+	margin: 1em 0 .25em;
+	font-size: 14pt;
+}
+h5 { 
+	margin: 0 0 .25em;
+	font-size: 14pt;
+}
+
+
+// Separate Aside
+aside {
+	padding: 5px 20px;
+	border: 1px dashed #666;
+	#what-you-get & { margin: 1em 0;}
+}
+
+// Don't display
+.node-header,
+#btn-up,
+a.btn,
+[data-icon],
+#services .column br,
+h1#page-title { display: none;}
+
+
+// Auto Adjust Images
+img {
+  max-width: 100%;
+	height: auto;
+}
+
+
+// Links
+a {
+  background: transparent;
+  font-weight: 700;
+  text-decoration: underline;
+  color: rgb(0, 0, 238);
+
+  &[href^="http://"],
+	&[href^="https://"],
+	&[href^="mailto:"] {
+    &:after,
+    &:visited:after {
+      content: " ("attr(href)")";
+      font-size: 10pt;
+    }
+  }
+}

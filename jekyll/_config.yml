@@ -1,0 +1,13 @@
+# Site settings
+title: Webmeadow
+slogan: We help progressive organizations develop content and technology strategies that fulfill their missions to make the world a better place.
+email: info@webmeadow.com
+phone: "[603] 397 0156"
+address: "507 North Skinny Ridge Road, Littleton NH 03561"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: webmeadow
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown

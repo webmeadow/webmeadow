@@ -1,0 +1,854 @@
+/*
+ *  Global webmeadow.com styles
+ *  Version: 4/12/2014
+ *	Author: aaron@webmeadow.com
+ *
+ */
+
+// _base.scss imports _custom.scss (variables and mixins) and other partials.
+@import "base";
+
+
+/* =============================================================================
+ *   Base
+ * ========================================================================== */
+
+ // Don't show fonts until Typekit Fonts have loaded
+.wf-loading #page {	visibility: hidden;}
+
+html { background: $page;}
+
+body {
+ 	font-family: $font-body;
+	font-size: $size-body;
+	line-height: 1.25;
+ 	//background: url('images/bg-body.jpg') repeat;	
+	color: $brown;
+	background: $light-grey;
+	text-align: center;
+}
+
+// Content Widths
+section,
+.webform-client-form,
+#user-login,
+#messages,
+#footer,
+#tasks {
+	//max-width: $page-width;
+	width: 100%;
+	padding: 0 4%;
+	//position: relative;
+}
+
+// Wrappers
+.wrapper,
+#messages .messages {
+	margin: 0 auto;		
+	max-width: $page-width;
+	position: relative;
+	padding: 1em 0 3em;
+}
+#messages .messages { padding-bottom: 1em;}
+.region-footer { 
+	padding-top: 3.5em;
+	padding-bottom: 3em;
+}
+
+
+
+/* =============================================================================
+ *   HTML Elements
+ * ========================================================================== */
+
+h1, h2, h3, h4, h5 {
+	font-family: $font-body;
+	font-weight: bold;
+	line-height: 1.2;	
+}
+
+h1 {
+	font-weight: normal;
+	font-size: em($size-h1);
+	margin: 1em 0 0;
+	color: $white;
+}
+h2 {
+	font-size: em(.9*$size-h2);
+	margin: 1em 0 0;
+	color: $brown;
+	font-family: $font-script;
+	font-style: italic;
+}
+h3 {
+	font-size: em($size-h3);
+  margin: .25em 0 .75em;
+	color: $brown;
+	font-weight: bold;
+	font-family: $font-body;
+	font-style: italic;
+}
+
+p { margin-bottom: 1.5em;}
+
+small { font-size: em(14px);}
+
+blockquote { color: $brown;}
+
+pre,
+code,
+tt,
+samp,
+kbd,
+var {
+  font-family: $mono;
+}
+
+ 
+
+/* =============================================================================
+ *   Header -- Site H1, H2 and Logo; About Us; Footer
+ * ========================================================================== */
+
+#header {
+	background: $green url('images/img-hero.jpg') no-repeat center top;
+}
+
+#header, #about-us, #footer {
+	//@include background-size(cover);
+	height: auto;
+	padding: 3.67857em .5em 0;
+
+	.wrapper { 
+		max-width: $page-width;
+		margin: 0 auto;
+	}
+}
+
+// Site Logo
+h1#logo {
+	max-width: 493px;
+	padding: 0;
+	margin: 0 auto;
+	a {
+		@include ir;
+		padding: 0;
+
+		@include retina('logo', 'png', 493px, 102px);
+		@include background-size(cover);
+		height: auto;
+		.ie8 & {
+      width: 493px;
+    } 
+		//padding-top: percentage(93px/616px);
+		padding-top: 15.1%;
+	}
+}
+
+h2#site-slogan {
+	margin-top: .8em;
+	font-weight: normal;
+	font-size: em(.65 * $size-h1);
+	@include breakpoint($break-mobile) {
+  	font-size: em(.75 * $size-h1);
+  }
+  @include breakpoint($break-tablet) { font-size: em($size-h1); }
+	line-height: 1.25;
+	color: $white;
+	border-top: 2px dashed $border;
+	border-bottom: 2px dashed $border;
+	padding: em(32px, $size-h1) em(35px, $size-h1);
+	font-family: $font-body;
+	font-style: normal;
+}
+
+#about-us {
+  padding: 2em .5em 1.5em .5em;
+  background-size: 150%;
+  background: $brown url('images/ducks.jpg');
+  background-repeat: no-repeat;
+  background-position: center calc(50% + 3em);
+ 
+  @include breakpoint("560px") {
+    background: $brown url('images/ducks.jpg') no-repeat center calc(50% + 3em);
+    background-size: 150%;
+    padding: 2em 4% 1em;
+  }
+  @include breakpoint($break-tablet) {
+    background-size: auto;
+    //background-position-y: calc(50% + 3em);
+    background-position: center -10em;
+  }
+  @include cf;
+  .ie8 & { background-position: center -10em; background-size: 100%;}
+}
+
+
+/* =============================================================================
+ *   Footer -- Logo, Credits, Social Media
+ * ========================================================================== */
+ 
+#footer {
+	background: $brown url('images/footer_tile.jpg');
+	background-repeat: repeat;
+	background-position: center center;
+	color: $color-footer;
+	padding-bottom: 1em;
+}
+ 
+// webmeadow logo
+#footer #block-block-1 {
+	margin-bottom: 1.75em;
+	.block-content {
+		max-width: 224px;
+		margin: 0 auto;
+		text-align: center;
+		a {	
+			strong { 
+				text-decoration: underline;
+				font: inherit;
+			}
+			&,
+			&:hover strong { text-decoration: none;}
+		}
+		p { margin-bottom: 0em;}
+	}
+}
+
+// Credits
+#block-block-2 {
+	font-size: em(16px);
+	text-align: center;
+	margin: 0 0 .5em;
+	p { margin: 0;}
+	line-height: 1.5;
+	span { 
+		display: block;
+		border: 0;
+		margin: 1em 0 0;
+		padding: 0;		
+	}
+}
+
+// Social Media
+#footer #block-block-3 .block-content {
+	padding-top: 1.5em;
+	p {
+		padding: 0;
+		text-align: center;
+		margin: 0 auto;
+		width: em(100px);
+	}
+	ul {
+		list-style-type: none;
+    margin: 0 auto;
+    overflow: hidden;
+		padding: 0;
+		text-align: center;
+		li {
+			display: inline-block;
+			vertical-align: top;
+			list-style-type: none;
+			margin: 0 5px;
+		}
+	}
+	span { @include element-invisible;}
+	a {	text-decoration: none;}
+}
+
+
+ 
+/* =============================================================================
+ *   Rows & Columns
+ * ========================================================================== */
+ 
+// Rows
+section .row {
+	clear: both;
+	overflow: hidden;
+//	border-top: 1px dashed $grey;
+//	border-bottom: 1px dashed $grey;
+//	padding: 1.5em 0 0;
+	&.how-it-works { border-bottom: 0;}
+} 
+#services .row { 
+	border-color: $brown;
+	padding-top: 0;
+	&.inventories {	padding-bottom: 4em;}
+	&.inventories,
+	&.audits { 
+		border-top: 0;
+		clear: none;
+	}
+	&.audits { border-bottom: 0;}
+	&.get-started { 
+		border-bottom: 0;
+		border-top: 0;
+		text-align: center;
+	}	
+}
+	
+ 
+// Columns
+.column {
+	display: block;
+	padding: 1em 2% 2em;
+	float: none;
+	font-size: em(21px);
+} 
+#services .column {
+	padding: 1px 0 1em;
+	&.complications {
+		padding-top: 1.5em;
+		border-top: 1px dashed $brown;
+		text-align: left;
+	}
+	&.button {
+		//display: inline-block;
+		display: block;
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		padding: 2em 0;
+	}
+}
+
+/* =============================================================================
+ *   Sections
+ * ========================================================================== */
+
+#strategists {
+  max-width: $page-width;
+  text-align: center;
+  margin: 0 auto;
+}
+#strategists .row {
+  padding-bottom: 1em;
+  position: relative;
+  background: $light-grey;
+  z-index: 100;
+  
+  @include breakpoint($break-tablet) {
+    margin: 0 auto;
+    .column {
+      width: 48%;
+      background: $light-grey;
+    }
+    .column.left {
+      float: left;     
+    }
+    .column.right {
+      float: right;
+    }
+  }
+}
+// Reduce extra space between simple and smart audit
+#services .aud-simple { padding-bottom: 1px;}
+
+#worked-with, #meet {
+  ul {
+    display: inline-block;
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+#meet {
+  @include cf;
+  display:inline-block;
+  margin:0 auto;  
+  padding-bottom: 2em;
+  li {
+    display:inline-block;
+    vertical-align: top;
+    max-width: 11em;
+    margin-left: -.2em;
+    @include breakpoint("450px") {
+      margin-left: .5em;      
+    }
+    @include breakpoint($break-tablet) {
+      margin-left: 2em;
+    }    
+  }
+  li + li {
+    margin-left: 1em;
+    @include breakpoint($break-tablet) {
+      margin-left: 2em;
+    }
+  }
+  li.lowest {
+    margin-top: .5em;
+  }
+  li.highest {
+    margin-top: -.5em;
+  }
+  li.lower {
+    margin-top: .2em;
+  }
+
+}
+
+// Worked with 
+#worked-with {
+  ul {
+    width: 100%;
+  }
+  li {
+    width: 90%;
+    margin: 2px;
+    @include breakpoint($break-mobile) {
+      width: 48%;
+      margin: 3px;
+    }
+    @include breakpoint("820px") { 
+      width: 30%;
+      margin: 5px;
+    }
+    float: left;
+    display: block;
+  }
+}
+
+// Section Lists
+#why ul,
+#what-you-get ol {
+	list-style: none;
+	overflow: hidden;
+	margin-bottom: 1em;
+	padding: em(10px) 0;
+	text-align: center;
+}
+#services ul {
+	list-style: none;
+	padding-left: 0;
+	li {
+		padding-left: 1.5em; 
+		text-indent: -1em;
+		margin-bottom: .5em;
+		&:before {
+			content: "\2022";
+			color: $white;
+			padding-right: .65em;
+		}
+	}
+}
+
+// Why Section
+#why {
+	ul {
+		padding: 0;
+		margin-top: 0;
+	}
+	.column { 
+		padding-bottom: 0;
+		&.freedom,
+		&.obstacle { margin-bottom: 1em;}		
+	}
+	h3 { font-size: em(30px, 21px);}
+}  
+
+// Services Section
+#services {
+	//background: $salmon;
+	.row p { 
+		//font-size: em($size-h4);
+		margin-bottom: .5em;
+	}
+	ul { margin-bottom: 1.5em;}
+	.row strong { 
+		color: $white;
+	}
+}
+
+
+// What's the Difference
+.difference {
+	margin: -5em 5% 1em;
+	font-size: .85em;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	//background: $color-aside-bg;
+	@include border-radius(10px);
+	padding: 1.25em em(10px) .5em;
+	p { margin-bottom: 1em;	}
+	strong { 
+		display: block;
+		//color: $color-aside;
+		text-transform: uppercase;
+	}	
+	em { 
+		font-style: normal;
+		font-weight: bold;
+	}
+}
+
+
+// What You Get Section
+#what-you-get {
+	p { font-size: em(.75 * $size-h1);}
+	ol {
+		// Compensate for li font size
+		//h5 { font-size: em($size-h5, 21px);}
+	}
+	.get-started {
+		padding: 1.25em 0 2.25em;
+		h3 {
+			margin: 0;
+			margin-bottom: 0;
+			text-align: center;
+			font-size: em(35px);
+			font-weight: bold;
+			color: $brown;
+		}
+		.button {
+			font-size: 1.1em;
+		}
+	}
+	aside {
+		margin: 2em 0;
+		p,
+		h5 {
+			display: inline;
+			font-size: .75em;
+			//color: $color-aside-isnt;
+		}
+	}
+	
+}
+ 
+ 
+// Signup Form
+.webform-client-form,
+#webform-ajax-wrapper-1 {
+	background: #8bc8dc;	// Blue
+}
+.webform-client-form {
+	&,
+	& > div { overflow: hidden;}
+	.form-item { 
+		width: 100%;
+	}
+	#webform-component-title-header	{
+		margin: 0 0 2em;
+	}
+	#edit-actions {	
+		text-align: center;
+		position: relative;
+	}
+}
+ 
+ 
+// Form Thanks Section
+#thanks {
+	font-size: em(21px);
+}
+ 
+
+
+/* =============================================================================
+ *   Links
+ * ========================================================================== */
+
+a {
+  text-decoration: underline;
+	color: $color-link;
+	
+  &:visited {	color: $color-link;}
+
+	&:hover,
+	&:focus,
+	&:active,
+	&.active {
+		text-decoration: none;
+	}
+
+	// Footer Links
+	#footer & { color: $color-footer;}	
+	
+	&.btn {
+		@include buttons();
+		display: block;
+		h3 & { font-size: em($size-btn, 33px);}
+		#services & {
+			@include buttons($white, $white);
+		}
+	}
+	/* ---------------- Aaron Modification ----------------------*/
+	#meet &,
+	#meet &:visited {color: $white;}
+
+}
+
+.button {
+	width: auto;
+	display: block;
+}
+
+span.button { 
+	margin-top: .5em;
+	//line-height: 2;
+}
+
+
+
+/* =============================================================================
+ *   Skip Navigation
+ * ========================================================================== */
+
+#skip-link {
+  left: 50%;
+  margin-left: -6.5em;
+  margin-top: 0;
+  padding: 0 0.5em;
+  position: absolute;
+  width: 12em;
+  z-index: 50;
+
+  a {
+    background: #444;
+    background: rgba(0, 0, 0, 0.6);
+    color: $page;
+    display: block;
+    line-height: 2;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+
+    &:link,
+    &:visited {
+      background: #444;
+      background: rgba(0, 0, 0, 0.6);
+      color: $page;
+      display: block;
+      line-height: 2;
+      padding: 0;
+      text-align: center;
+      text-decoration: none;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+      outline: 0;
+    }
+  }
+}
+
+
+
+/* =============================================================================
+ *   Forms
+ * ========================================================================== */
+
+.ajax-progress { 
+	position: absolute;
+	width: 10%;
+	margin-top: 3em;
+	left: 0;
+}
+
+/*
+ * Wrapper for a form element (or group of form elements) and its label
+ */
+.form-item { 
+
+  input.error,
+  textarea.error,
+  select.error {
+    border: 3px solid $highlight;
+  }
+
+  label { 
+		font-weight: 700; 
+		text-transform: uppercase;
+		font-size: em($size-h3);
+	}
+
+	&.form-type-checkbox label {
+		font-size: 1em;
+		color: $white;
+		text-transform: none;
+	}
+	
+  .description { font-size: 1em;}
+
+	// Align Checkboxes	
+	input.form-checkbox,
+	input.form-radio { vertical-align: inherit;}
+	&.webform-component-checkboxes {
+		margin-bottom: 2em;
+	}
+	
+	// Text Boxes and Textareas
+	.form-text,
+	.form-textarea {
+		background: $medium_dark;
+		color: $brown;
+		border: 0;
+		font-size: em($size-form);
+		padding: 7px;
+		margin: .5em 0;
+		width: 100%;
+		@include transition-property(background);
+		@include transition-duration(.5s);
+		@include transition-timing-function(ease);
+		&:focus {
+			background: $white;
+		}
+	}	
+	.form-textarea { margin-bottom: 0;}
+	
+}
+
+
+/*
+ * The submit button
+ */
+input[type="submit"] {
+	@include buttons();
+	font-size: em(30px);
+	margin-top: 1em;
+}
+
+// Inline fields
+.container-inline {
+  div,
+  label { display: inline;}
+}
+
+/*
+ * Define consistent borders
+ */
+// Hide Legend
+legend { @include element-invisible;}
+fieldset { border: 0;}
+
+
+
+/* =============================================================================
+ *   Tables
+ * ========================================================================== */
+
+table {
+  margin: 10px 0;
+  padding: 0;
+  width: 100%;
+
+  &.sticky-header {
+    z-index: 10;
+  }
+}
+
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  border-color: $border;
+}
+
+table,
+td,
+th {
+  vertical-align: middle;
+}
+
+caption,
+th,
+td {
+  text-align: left;
+}
+
+thead tr {
+  font-weight: 700;
+  background-color: $medium_dark;
+}
+
+td,
+th {
+  border-bottom: 0;
+  margin: 0;
+  padding: 5px 7px;
+}
+
+tbody tr {
+  border-top: 1px solid $border;
+}
+
+tr {
+  &.odd {
+    background: $page;
+  }
+
+  /* Table row striping */
+  &.info,
+  &.even,
+  &:nth-child(2n+2)  {
+    border-bottom: 0;
+    background-color: $ultralight;
+  }
+  &.odd td.active {
+    background-color: $light;
+  }
+  &.even td.active {
+    background-color: $medium_light;
+  }
+}
+
+
+/* =============================================================================
+ *   Messages
+ * ========================================================================== */
+div.messages {
+	margin: 10px 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	@include border-radius(5px);	
+	background-position: 16px 16px;
+	ul {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+
+/* =============================================================================
+ *   Misc overrides for contrib modules
+ * ========================================================================== */
+
+/*
+ * Admin menu overrides
+ */
+#admin-menu {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*
+ * Devel Module
+ */
+.dev-query {
+  background: $light;
+  padding: 30px;
+}
+
+
+/*
+ * Styleguide module tweaks
+ */
+#styleguide-header {
+  padding: 0 10px;
+
+  .item-list {
+    font-family: inherit;
+    margin: 0 20px 20px 0;
+    min-height: 260px;
+    width: auto;
+  }
+}

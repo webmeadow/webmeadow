@@ -1,0 +1,423 @@
+/* --------------------------------------------
+		webmeadow.com styles
+
+		version: April 12, 2014
+		author: webmeadow
+		email: aaron@webmeadow.com
+----------------------------------------------- */ 
+
+/* ---- Consolidate SCSS ---- */	
+@import "variables";
+@import "global";
+//@import "rwd";
+
+#header {
+  position: relative;
+  z-index: 9;
+}
+// Strategists
+// This creates the vertical line
+#page:after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 75%;
+  height: 1400px;
+  left: 50%;
+  border-left: 2px dashed $grey;
+}
+// This centres the circle (pseudo-centering)
+#stragists:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+#strategists {
+  // relative position so they'll go in front of the line
+  h2, p {
+    background: $light-grey;
+    position: relative;
+    z-index: 100;
+    padding: .3em 0;
+    margin: 1em .5em 2em .5em;
+    font-size: .9em;
+    @include breakpoint($break-tablet) { 
+      margin: 1.5em 0 2em 0;
+      font-size: 1.1em;
+    }
+  }
+  h2.top {
+    padding-top: 2em;
+    margin-top: 0;
+  }
+  h2.bottom {
+    margin-bottom: 0em;
+  }
+  p {
+    margin: 2em 6% 1.5em 6%;
+    font-size: .8em;
+    line-height: 1.5em;
+    @include breakpoint($break-tablet) {
+      font-size: .95em;
+    }
+  }
+  p.bottom {
+    margin: 0;
+    padding: 1em 6% 2em 6%;
+  } 
+  #plans-wrapper {
+    background: $light-grey;
+    padding: .4em 0;
+    position: relative;
+    z-index: 100;    
+  }
+  // fancy circle
+  .plans {
+    display: table;
+    margin: .3em auto 0 auto;
+    width: 100%;
+    vertical-align: middle;
+    background: url('images/retina/topo_circle.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 300px;     
+    @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
+      background-size: 300px;
+    }
+    @include breakpoint($break-tablet) {
+      background-size: cover;
+      height: 422px;
+      width: 422px;
+      @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (max--moz-device-pixel-ratio: 2) {
+        background-size: 422px;
+      }      
+    }
+    h3 {
+      color: $white;
+      font-size: 1.2em;
+      @include breakpoint($break-tablet) { font-size: 1.5em; }
+      display: table-cell;
+      font-familh: $font-script;
+      vertical-align: middle;
+      text-transform: uppercase;
+      font-style: normal;
+      padding: 0 20%;
+    }
+    .ie8 & {
+      background: $blue;
+      height: auto;
+      width: auto;
+
+      //-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/retina/topo_circle.jpg', sizingMethod='scale')";
+      background-size: auto;
+      h3 {
+          padding: 0 10%;
+          display: block;
+      }
+    }    
+  }
+  .column {
+    p {
+      font-style: italic;
+      margin-top: 0;
+      margin-bottom: .5em;
+      line-height: 1.2em;
+      font-size: .95em;
+      margin: 0% 0 .5em 0%;
+    }
+    h3 {
+      width: 30%;
+      margin: 0 auto;
+      padding: .5em 0 .5em 0;
+      margin-bottom: .5em;
+      font-weight: bold;
+      font-size: 1.1em;
+      border-bottom: 2px dashed $grey;
+    }
+  }
+ .headshot {
+    width: 250px;
+    height: 250px;
+  }
+  .twitter, .email {
+    background-position: 3px 3px;
+    padding: 0 0 0em 1.5em;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: .9em;
+  }
+  .twitter {
+    background-image: url('images/retina/mini_twitter.png');
+    background-size: 19px 16px;
+    .ie8 & {
+      background-image: url('images/retina/mini_twitter-ie.gif');      
+    }
+  }
+  .email {
+    background-image: url('images/retina/email.png');
+    background-size: 19px 14px;
+    background-position: 0 4px;
+    .ie8 & {
+      background-image: url('images/retina/email-ie.gif');      
+    }    
+  }
+  a.twitter:hover, a.email:hover {
+    text-decoration: underline;
+  } 
+}
+
+/* The borders are done using a version of ALA's sliding doors: an image that is wider than
+ * the div will ever be, sitting at the bottom providing a bottom and right border, plus page-turn.
+ * Elements provide the left and top borders.
+ *
+ * For IE (in a media query below) the middle border is also an image because it's being ridiculous
+ * and providing some overlap visualization that makes the border look like it doesn't meet the side.
+ */
+#meet {
+  background: $green url(images/retina/topo_pattern.jpg);
+  background-size: 500px 499px;
+  padding-top: 2em;
+  padding-bottom: 0;
+  font-family: $font-body;
+  border-collapse:collapse;
+  h2 {
+    margin-top: 0;
+  }
+  h2, h3, p {
+    color: $grey;
+    border-collapse:collapse;
+    border-spacing: 0;
+  }
+  h2 { color: white; }
+  h3 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: .5em .75em;
+    span {
+      margin-left: -0.25em;
+      font-size: 2.2em;
+      display: block;
+    }
+    border-left: 1px solid $grey;
+    border-right: 1px solid $grey;
+    border-bottom: 1px solid $grey;
+    display: block;
+    box-sizing: border-box;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    background: url(images/retina/pin.png) no-repeat center top;
+    background-size: 15px 28.5px;
+    padding-top: 1em;
+  }
+  li:nth-child(3) {
+    background: url(images/retina/pin-flipped.png) no-repeat center top;
+    background-size: 15px 28.5px;
+  }  
+  p {
+    font-size: .85em;
+    color: white;
+    font-weight: bold;
+    padding: 1.2em 1em;
+    margin-bottom: .5em;
+    //border-top: 1px solid $grey;
+    border-left: 1px solid $grey;
+    box-sizing:border-box;
+    //max-width: 200px;
+    height: 5em;
+    //display: table-cell;
+    vertical-align: middle;
+  }
+  article {
+    border-top: 1px solid $grey;
+    background: url(images/retina/cal_page_border.png) no-repeat right bottom;
+    background-size:250px 277px;
+  }
+  .wrapper {
+    padding-top: 2em;
+  }
+}
+
+#worked-with {
+  h2 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+  }
+  li {
+    @include ir;
+    //background: $light-grey;
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-color: $lighter-grey;
+    background-size: cover;
+    height: 200px;
+  }
+  .mariott {
+    background-image: url(images/retina/marriott_logo.png);
+    background-size: 167px 82px;    
+  }
+  .ritz {
+    background-image: url(images/retina/ritz_logo.png);
+    background-size: 174px 121px;
+  }
+  .papa {
+    background-image: url(images/retina/papa_johns_logo.png);
+    background-size: 178px 78px;
+  }
+  .target {
+    background-image: url(images/retina/target_logo.png);
+  }
+  .trek {
+    background-image: url(images/retina/trek_logo.png);
+    background-size: 158px 90px;
+  }
+  .cineplex {
+    background-image: url(images/retina/cineplex_logo.png);
+    background-size: 196px 56px;
+  }
+  .ala {
+    background-image: url(images/retina/ala_logo.png);
+    background-size: 224px 28px;
+  }
+}
+
+#about-us {
+  p {
+    color: white;
+    padding: 1em 0em;
+    padding: em(32px) em(35px);
+    font-size: 1em;
+    margin-bottom: 0;
+    @include breakpoint($break-tablet) { 
+      font-size: 1.2em;
+      //padding: 1em 2.5em;
+        padding: em(32px) em(35px);
+    }
+    @include breakpoint($break-desktop) { 
+      //padding: 1em 4.2em 2em 4.2em;
+        padding: em(32px) em(35px);
+      font-size: 1.35em;
+    }
+  }
+}
+
+#footer {
+  padding: 1em;
+  font-size: .6em;
+  .wrapper {
+    @include cf;
+    padding: 1em 0 2em 0;
+  }
+  ul, li {
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    display: inline;
+    float: left;
+  }
+  em {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+  }
+  ul.social {
+    display: table;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+    @include breakpoint($break-tablet) {
+      width: 13em;
+      float: right;
+    }
+    li {
+      padding-right: 1em;
+    }
+    .twitter a {
+      background-image: url(images/retina/twitter_circle.png);
+      background-size: 33px 33px;
+      width: 33px;
+      height: 33px;
+      @include ir;
+      .ie8 & {
+          background-image: url(images/retina/twitter_circle-ie.gif);
+      }
+    }
+    .twitter a:hover {
+      background-image: url(images/retina/twitter_circle_rollover.png);
+      .ie8 & {
+        background-image: url(images/retina/twitter_circle_rollover-ie.gif);        
+      }
+    }
+    .email a {
+      background-image: url(images/retina/email_circle.png);
+      background-size: 33px 33px;
+      width: 33px;
+      height: 33px;
+      @include ir;
+      .ie8 & {
+        background-image: url(images/retina/email_circle-ie.gif);
+      }
+    }
+    .email a:hover {
+      background-image: url(images/retina/email_circle_rollover.png);      
+      .ie8 & {
+        background-image: url(images/retina/email_circle_rollover-ie.gif);
+      }
+    }
+  }
+  ul.contact {
+    display: table;
+    width: 100%;
+    padding-top: 1em;
+    li {
+      display: block;
+      float: none;
+      text-align: left;
+    }
+    @include breakpoint($break-tablet) {
+      margin-top: -2em;
+      padding-top: 0em;
+      float: left;
+      width: 75.5%;
+      li {
+        display: inline;
+        float: left;
+      }
+      li:after {
+        content:" / ";
+        padding-right: .5em;
+        padding-left: .5em;
+      }
+      li:last-child:after {
+        content:"";
+      }
+    }
+    @include breakpoint("921px") {
+      margin-top: 0em;
+    }
+    @include breakpoint("1088px") {
+      margin-top: .3em;
+    }
+  }
+}
+
+
+/*
+ * IE 10 conditionals. Sigh.
+*/
+
+@media screen and (min-width:0\0) { 
+  // weird effect where the border is overlapping itself, creating a gap. Oh, IE.
+  #meet p {
+    //border-top: 0;
+    background: url(images/retina/cal_border.png) no-repeat top;
+    background-size: 300px 1px;
+  }
+}

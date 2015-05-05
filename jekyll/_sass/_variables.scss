@@ -1,0 +1,109 @@
+/*
+ *  Custom webmeadow.com variables and mixins
+ *  Version: 4/12/2014
+ *	Author: aaron@webmeadow.com
+ *
+ */
+ 
+// Page width
+$page-width: 1130px; 
+
+/*
+  Color Variables
+*/
+
+// Core
+$green: #556425;
+$black: #341c0e;
+$brown: #715a3e;
+$white: #fff;
+$grey: #d5cbae;
+$light-grey: #F7F4ED;
+$blue: #5c8bb4;
+$lighter-grey: #edeae1;
+
+// Page Elements
+$color-body: $brown;
+$color-link: $blue;
+$color-footer: #bcb49d;				// Grey
+
+// Buttons
+$color-btn-bg: #5e8db5;       // Blue
+$color-btn: $white;
+$color-btn-hover: $green;
+
+// Core Adaptive Theme
+$page:         #fff;    // to match the page background, default is white
+$border:       $light-grey;
+$highlight:    #c00;    // required mark, form error highlight, "new" label on comments
+$ultralight:   #f5f5f5; // table row even, primary link inactive tabs
+$light:        #eee;    // table row odd active, primary link inactive hover
+$medium_light: #ebebeb; // table row even active
+$medium_dark:  #e5e5e5; // table thead
+$debug:        rgba(255, 192, 203, 0.5); // Full width wrapper test
+
+$thead:          $medium_dark;
+$tr_odd:         $page;
+$tr_even:        $ultralight;
+$tr_odd_active:  $light;
+$tr_even_active: $medium_light;
+
+$primary_task:        $ultralight;
+$primary_task_hover:  $light;
+$primary_task_active: $page;
+
+
+
+/*
+  Size Variables
+*/
+$size-body: 28px;
+
+// Headers
+$size-h1: 48px;
+$size-h2: 36px;
+$size-h3: 25px;
+
+// Strategists
+$size-strat-body: 28px;
+$size-45: 45px;
+
+// Meet Us
+$size-meet-month: 28px;
+$size-meet-day: 65px;
+$size-meet-body: 17px;
+
+// Contact 
+$size-form: 18px;
+
+// About 
+$size-about: 40px;
+
+// Footer
+$size-footer: 16px;
+$size-footer-bold: 15px;
+
+// Buttons
+$size-btn: 26px;
+
+// Breakpoints
+$break-mobile: 560px;
+$break-tablet: 700px;
+$break-desktop: 1120px;
+
+
+/*
+  Font Variables
+*/
+
+// Quattrocento
+$font-body: 'Quattrocento Sans', Arial, Helvetica, sans-serif;
+
+// Droid
+$font-script: 'Droid Serif', Georgia, 'Times New Roman', Times, Baskerville, serif;
+
+// Mono
+$mono: Consolas, Monaco, 'Courier New', Courier, monospace, sans-serif;
+
+
+

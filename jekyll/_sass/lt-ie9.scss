@@ -1,0 +1,67 @@
+/*
+ *  IE 7 & 8 Audit Otter styles
+ *  Version: 5/23/2013
+ *	Author: aaron@webmeadow.com
+ *
+ */
+
+// _base.scss imports _custom.scss and other partials.
+@import "base";
+
+
+/* Set page minimum width  */
+#page {	min-width: 700px;}
+ 
+ 
+/* Add Background Circles to Why points */
+[data-icon] {
+	#why & {
+		background: $green;
+		@include border-radius(270px);	
+		padding-top: 41px;
+		height: 180px;
+		width: 180px;
+	}
+	#why .freedom &:before,
+	#why .on-time &:before { font-size: 96px;}
+	#why .obstacle & {
+		padding-top: 60px;
+		&:before { font-size: 64px;}		
+	}	
+} 
+
+/* 2-Column What You Get Points */
+#what-you-get {
+	.column {	
+		float: left;
+		width: 50%;
+		&.start { clear: left;}
+	}
+	.lt-ie8 & .column {
+		float: none;
+		width: 100%;
+	}
+}
+
+/* 3-Column Why points */
+#why .column {
+	float: left;
+	width: 33%;
+	&.freedom,
+	&.obstacle { margin-bottom: 0;}
+	.lt-ie8 & {
+		float: none;
+		width: 100%;
+	}	
+}
+
+/* IE7 - don't display icon figures */
+.lt-ie8 [data-icon] {
+  display: none;
+}
+
+/* Increase Submit Button Font Size */
+input[type="submit"] { 
+	font-size: em($size-btn);
+	padding: 12px 30px 10px;
+}
