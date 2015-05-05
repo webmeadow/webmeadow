@@ -26,7 +26,7 @@
   left: 50%;
   border-left: 2px dashed $grey;
 }
-// This centres the circle (pseudo-centering)
+// This centres the circle (pseudo-centering
 #stragists:before {
   content: '';
   display: inline-block;
@@ -79,7 +79,7 @@
     margin: .3em auto 0 auto;
     width: 100%;
     vertical-align: middle;
-    background: url('images/retina/topo_circle.jpg');
+    background: url(../images/retina/topo_circle.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -111,7 +111,7 @@
       height: auto;
       width: auto;
 
-      //-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/retina/topo_circle.jpg', sizingMethod='scale')";
+      //-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/retina/topo_circle.jpg', sizingMethod='scale')";
       background-size: auto;
       h3 {
           padding: 0 10%;
@@ -151,18 +151,18 @@
     font-size: .9em;
   }
   .twitter {
-    background-image: url('images/retina/mini_twitter.png');
+    background-image: url(../images/retina/mini_twitter.png);
     background-size: 19px 16px;
     .ie8 & {
-      background-image: url('images/retina/mini_twitter-ie.gif');      
+      background-image: url(../images/retina/mini_twitter-ie.gif);      
     }
   }
   .email {
-    background-image: url('images/retina/email.png');
+    background-image: url(../images/retina/email.png);
     background-size: 19px 14px;
     background-position: 0 4px;
     .ie8 & {
-      background-image: url('images/retina/email-ie.gif');      
+      background-image: url(../images/retina/email-ie.gif);      
     }    
   }
   a.twitter:hover, a.email:hover {
@@ -178,7 +178,7 @@
  * and providing some overlap visualization that makes the border look like it doesn't meet the side.
  */
 #meet {
-  background: $green url(images/retina/topo_pattern.jpg);
+  background: $green url(../images/retina/topo_pattern.jpg);
   background-size: 500px 499px;
   padding-top: 2em;
   padding-bottom: 0;
@@ -212,12 +212,12 @@
     padding: 0;
   }
   li {
-    background: url(images/retina/pin.png) no-repeat center top;
+    background: url(../images/retina/pin.png) no-repeat center top;
     background-size: 15px 28.5px;
     padding-top: 1em;
   }
   li:nth-child(3) {
-    background: url(images/retina/pin-flipped.png) no-repeat center top;
+    background: url(../images/retina/pin-flipped.png) no-repeat center top;
     background-size: 15px 28.5px;
   }  
   p {
@@ -236,7 +236,7 @@
   }
   article {
     border-top: 1px solid $grey;
-    background: url(images/retina/cal_page_border.png) no-repeat right bottom;
+    background: url(../images/retina/cal_page_border.png) no-repeat right bottom;
     background-size:250px 277px;
   }
   .wrapper {
@@ -259,30 +259,30 @@
     height: 200px;
   }
   .mariott {
-    background-image: url(images/retina/marriott_logo.png);
+    background-image: url(../images/retina/marriott_logo.png);
     background-size: 167px 82px;    
   }
   .ritz {
-    background-image: url(images/retina/ritz_logo.png);
+    background-image: url(../images/retina/ritz_logo.png);
     background-size: 174px 121px;
   }
   .papa {
-    background-image: url(images/retina/papa_johns_logo.png);
+    background-image: url(../images/retina/papa_johns_logo.png);
     background-size: 178px 78px;
   }
   .target {
-    background-image: url(images/retina/target_logo.png);
+    background-image: url(../images/retina/target_logo.png);
   }
   .trek {
-    background-image: url(images/retina/trek_logo.png);
+    background-image: url(../images/retina/trek_logo.png);
     background-size: 158px 90px;
   }
   .cineplex {
-    background-image: url(images/retina/cineplex_logo.png);
+    background-image: url(../images/retina/cineplex_logo.png);
     background-size: 196px 56px;
   }
   .ala {
-    background-image: url(images/retina/ala_logo.png);
+    background-image: url(../images/retina/ala_logo.png);
     background-size: 224px 28px;
   }
 }
@@ -340,35 +340,35 @@
       padding-right: 1em;
     }
     .twitter a {
-      background-image: url(images/retina/twitter_circle.png);
+      background-image: url(../images/retina/twitter_circle.png);
       background-size: 33px 33px;
       width: 33px;
       height: 33px;
       @include ir;
       .ie8 & {
-          background-image: url(images/retina/twitter_circle-ie.gif);
+          background-image: url(../images/retina/twitter_circle-ie.gif);
       }
     }
     .twitter a:hover {
-      background-image: url(images/retina/twitter_circle_rollover.png);
+      background-image: url(../images/retina/twitter_circle_rollover.png);
       .ie8 & {
-        background-image: url(images/retina/twitter_circle_rollover-ie.gif);        
+        background-image: url(../images/retina/twitter_circle_rollover-ie.gif);        
       }
     }
     .email a {
-      background-image: url(images/retina/email_circle.png);
+      background-image: url(../images/retina/email_circle.png);
       background-size: 33px 33px;
       width: 33px;
       height: 33px;
       @include ir;
       .ie8 & {
-        background-image: url(images/retina/email_circle-ie.gif);
+        background-image: url(../images/retina/email_circle-ie.gif);
       }
     }
     .email a:hover {
-      background-image: url(images/retina/email_circle_rollover.png);      
+      background-image: url(../images/retina/email_circle_rollover.png);      
       .ie8 & {
-        background-image: url(images/retina/email_circle_rollover-ie.gif);
+        background-image: url(../images/retina/email_circle_rollover-ie.gif);
       }
     }
   }
@@ -417,7 +417,7 @@
   // weird effect where the border is overlapping itself, creating a gap. Oh, IE.
   #meet p {
     //border-top: 0;
-    background: url(images/retina/cal_border.png) no-repeat top;
+    background: url(../images/retina/cal_border.png) no-repeat top;
     background-size: 300px 1px;
   }
 }

@@ -111,7 +111,7 @@ var {
  * ========================================================================== */
 
 #header {
-	background: $green url('images/img-hero.jpg') no-repeat center top;
+	background: $green url(../images/hero_image.jpg) no-repeat center top;
 }
 
 #header, #about-us, #footer {
@@ -165,12 +165,12 @@ h2#site-slogan {
 #about-us {
   padding: 2em .5em 1.5em .5em;
   background-size: 150%;
-  background: $brown url('images/ducks.jpg');
+  background: $brown url(../images/ducks.jpg);
   background-repeat: no-repeat;
   background-position: center calc(50% + 3em);
  
   @include breakpoint("560px") {
-    background: $brown url('images/ducks.jpg') no-repeat center calc(50% + 3em);
+    background: $brown url(../images/ducks.jpg) no-repeat center calc(50% + 3em);
     background-size: 150%;
     padding: 2em 4% 1em;
   }
@@ -189,7 +189,7 @@ h2#site-slogan {
  * ========================================================================== */
  
 #footer {
-	background: $brown url('images/footer_tile.jpg');
+	background: $brown url(../images/footer_tile.jpg);
 	background-repeat: repeat;
 	background-position: center center;
 	color: $color-footer;
