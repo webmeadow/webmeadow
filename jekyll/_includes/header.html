@@ -1,16 +1,8 @@
 <header id="header" class="clearfix" role="banner">
-<nav class="topnav">
-	<ul>
-	{% for page in site.pages %}
-	  {% if page.title %}
-	  <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-	  {% endif %}
-	{% endfor %}
-</nav>
-<div class="wrapper">
-	<h1 id="logo"><img src="/images/logo.png" alt="{{ site.title }}"></h1>
-	<h2 id="site-slogan">{{site.slogan}}</h2>
-</div>
+	<div class="wrapper">
+		<h1 id="logo"><a href="{{site.url}}"><img src="/images/logo.png" alt="{{ site.title }}"></a></h1>
+		<h2 id="site-slogan">{{site.slogan}}</h2>
+	</div>
 </header>
 
 

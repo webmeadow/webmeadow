@@ -130,19 +130,7 @@ h1#logo {
 	max-width: 493px;
 	padding: 0;
 	margin: 0 auto;
-	a {
-		@include ir;
-		padding: 0;
-
-		@include retina('logo', 'png', 493px, 102px);
-		@include background-size(cover);
-		height: auto;
-		.ie8 & {
-      width: 493px;
-    } 
-		//padding-top: percentage(93px/616px);
-		padding-top: 15.1%;
-	}
+	//padding-top: percentage(93px/616px);
 }
 
 h2#site-slogan {

@@ -5,9 +5,11 @@ email: info@webmeadow.com
 phone: "[603] 397 0156"
 address: "507 North Skinny Ridge Road, Littleton NH 03561"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://webmeadow.com" # the base hostname & protocol for your site
 twitter_username: webmeadow
-github_username:  jekyll
+eileen_email: eileen@webmeadow.com
+aaron_email: aaron@webmeadow.com
+aaron_twitter: aparkening
 
 # Build settings
 markdown: kramdown
