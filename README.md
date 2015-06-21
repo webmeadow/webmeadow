@@ -28,3 +28,6 @@ Go to `http://192.168.3.33:4000/` and see your site.
 *GOTCHAS* - Running 'jekyll serve --watch --force_polling --host 0.0.0.0' does not watch for everything. If you make _config.yml changes, it will not see them. You must restart for that.  It will notice new posts, index.html, and layout changes :) 
 
 
+DEPLOYING:
+
+I want to use this gem: https://github.com/laurilehmijoki/s3_website
