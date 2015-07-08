@@ -1,6 +1,0 @@
-[appserver]
-192.168.3.33
-
-[appserver:vars]
-user=vagrant
-root=/mnt/jekyll

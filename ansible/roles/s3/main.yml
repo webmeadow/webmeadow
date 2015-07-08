@@ -1,4 +1,0 @@
----
-- name: Copy dist to s3 bucket
-# Simple PUT operation
-- s3: bucket=mybucket src={{root}}/dist mode=put
