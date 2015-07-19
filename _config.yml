@@ -13,3 +13,18 @@ aaron_twitter: aparkening
 
 # Build settings
 markdown: kramdown
+exclude: [
+  "node_modules",
+  "build",
+  "styles",
+  "Gemfile",
+  "Gemfile.lock",
+  "README.md",
+  "Gruntfile.js",
+  "report.html",
+  ".jscs.json",
+  ".jshintrc",
+  ".gitattributes",
+  ".gitignore",
+  "package.json"
+]

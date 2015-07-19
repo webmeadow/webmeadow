@@ -1,2 +1,5 @@
 /.vagrant/
 /_site/
+/node_modules/
+/_gems/
+/.bundle/
