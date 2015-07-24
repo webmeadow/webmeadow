@@ -1,0 +1,16 @@
+<section id="meet">
+ 	<h2>Meet us at:</h2>
+	<div class="wrapper">
+		<!-- update this data in _data/current_conferences.yml -->
+		<ul>
+			{% for conference in site.data.current_conferences %}
+				<li class="column highest">
+					<article>
+						<h3>{{conference.month}} <span>{{conference.day}}</span></h3>
+						<p><a href="{{conference.url}}">{{conference.name}}</a></p>
+					</article>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>

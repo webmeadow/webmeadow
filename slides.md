@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Slides
+title: Presentation Archive
 permalink: /slides/
 ---
 <div class="home">
@@ -8,11 +8,13 @@ permalink: /slides/
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+				<img class="small-image" src="/images/presentations/{{ post.thumbnail }}">
+				<div class="post-info">
+	        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	        <h2>
+	          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	        </h2>
+	      </div>
       </li>
     {% endfor %}
   </ul>

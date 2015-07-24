@@ -1,0 +1,19 @@
+- name: Confab Central
+  month: May
+  day: 20-22
+  url: http://confabevents.com/events/central
+
+- name: UX Burlington
+  month: June
+  day: 12
+  url: http://uxburlington.com/
+
+- name: Giant Conf
+  month: June
+  day: 14-17
+  url: http://conf.giantux.com/
+
+- name: Non-Profit & NGO Summit
+  month: July
+  day: 17
+  url: http://nyccamp.org/summit/non-profits-ngo-summit
