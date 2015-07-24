@@ -1,0 +1,78 @@
+.small-image {
+	width:100px;
+	height:auto;
+	display: inline-block;
+	vertical-align: bottom;
+}
+.post-info{
+  display: inline-block;
+  width: 90%;
+  padding-left: 20px;
+}
+
+.blog{
+	font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+	color: #6d4620;
+	background: #F8F4D6 url(../images/blog/woodpanel.png) repeat-x left top;
+	margin: 0;
+	padding: 0;
+	font-size: 1.167em;
+	.subheader-image {
+		img {
+			border: 10px solid #fff;
+		}
+	}
+  #header {
+    background:none;
+    padding: 0;
+    .wrapper {
+      padding: 0;
+      height: 98px;
+      margin: 0 auto;
+      h1#logo {
+      	margin: 0 75px 0;
+      	max-width: 450px;
+        padding: 10px;
+      }
+    }
+  }
+  #site-slogan {
+    display: none;
+  }
+  .post{
+    max-width: 1130px;
+    text-align: left;
+    margin: 0 auto;
+    min-height:600px;
+    padding-bottom:100px;
+  }
+  h1, 
+  h1.post-title{
+    color: #515F22;
+  }
+  h1 {
+  	margin-bottom:15px;
+  }
+  .post-list {
+  	padding-left: 0;
+    list-style: none;
+    text-align: left;
+    li{
+      padding: 20px 0;
+      border-top: 2px dashed #d5cbae;
+      &:first-child {
+        border:none;
+      }
+      .post-meta{
+        font-size: 0.65em;
+      }
+      h2 {
+        margin-top: 10px;
+        a {
+          color: #515F22;
+        }
+      }
+    }
+  }
+
+}

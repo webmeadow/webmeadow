@@ -4,10 +4,11 @@ title:  "Integrating Accessibility: Planning Content for Everyone"
 date:   2015-07-24 18:49:42
 categories: presentations
 thumbnail: integrating-accessibility.png
+subheader: header-sub1.jpg
 ---
-<script async class="speakerdeck-embed" data-id="2ec149c69c0d4e78b080007b920ea3c2" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
-#Transcript
+<!-- <script async class="speakerdeck-embed" data-id="2ec149c69c0d4e78b080007b920ea3c2" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+ -->
+##Transcript
 I’m here today to talk about accessibility as it relates to web content. Our cultural picture of disability is often a physical disability, and something like being in a wheelchair doesn’t affect your web use. So what do we mean when we’re talking about content accessibility?
 
 **Cognitive impairment:** we’re talking things like learning disabilities, dyslexia, and attention deficit disorder. Cognitive issues tend to come into play when we have bad formatting, and use dense language or lots of jargon. Anything that makes our content hard to understand runs up against cognitive issues.

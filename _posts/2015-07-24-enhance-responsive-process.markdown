@@ -4,8 +4,9 @@ title:  "Wait what? How to Enhance your Responsive Process with Content Question
 date:   2015-07-24 18:49:42
 categories: presentations
 thumbnail: wait-what.png
+subheader: header-sub4.jpg
 ---
-<script async class="speakerdeck-embed" data-id="b65e0d40c731013196d9061a363cc5d8" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+<!-- <script async class="speakerdeck-embed" data-id="b65e0d40c731013196d9061a363cc5d8" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script> -->
 
 Many of the challenges that come from building a responsive site are based not in the technical implementation, but in the content. All your copy is now readable on a small screen, but is it useful there? Is it still serving the site and business goals? Who's actually going to write those blog posts?
 
