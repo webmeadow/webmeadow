@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Presentation Archive
-permalink: /slides/
+permalink: /presentations/
 subheader: header-sub4.jpg
 ---
 <div class="home">
