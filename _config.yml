@@ -1,16 +1,20 @@
 # Site settings
 title: webmeadow
-slogan: We help progressive organizations develop content and technology strategies that fulfill their missions to make the world a better place.
 email: info@webmeadow.com
 phone: "[603] 397 0156"
-address: "507 North Skinny Ridge Road, Littleton NH 03561"
+address: {
+    street: "507 North Skinny Ridge Road",
+    city: "Littleton",
+    state: "NH",
+    postal: 03561
+    }
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://webmeadow.com" # the base hostname & protocol for your site
 twitter_username: webmeadow
 eileen_email: eileen@webmeadow.com
 aaron_email: aaron@webmeadow.com
 aaron_twitter: aparkening
-
+slogan: We help progressive organizations develop content and technology strategies that fulfill their missions to make the world a better place.
 # Build settings
 markdown: kramdown
 exclude: [

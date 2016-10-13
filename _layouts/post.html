@@ -2,9 +2,6 @@
 layout: default
 bodyClass: blog
 ---
-<div class="subheader-image">
-	<img src="/images/blog/{{ page.subheader }}">
-</div>
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
@@ -13,4 +10,18 @@ bodyClass: blog
   <article class="post-content">
     {{ content }}
   </article>
+  <ul class="PageNavigation">
+    <li class="next">
+        {% if page.next.url %}
+            <a href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+        {% endif %}
+    </li>
+    <li class="prev">
+        {% if page.previous.url %}
+            <a href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+        {% endif %}
+    </li>
+
+</ul>
+<p class="archive-link"><a href="/presentations/" title="Presentations archive">See the full archive of transcripts</a></p>
 </div>

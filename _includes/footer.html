@@ -5,10 +5,10 @@
 			<li class="email"><a href="mailto:{{site.email}}">{{site.email}}</a></li>
 			<li class="cc"><a title="This work is licensed under a Creative Commons Attribution 3.0 License." rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" src="/images/retina/cc_logo.png" height="32" width="94"></a></li>
 		</ul>
-		<ul class="contact">
+		<ul class="contact" id="vcard">
 			<li>© {{ site.time | date: '%Y' }} webmeadow</li>
-			<li><em>Call:</em>{{site.phone}}</li>
-			<li><em>Write:</em> {{site.address}}</li>
+			<li><em>Call:</em><span class="tel">{{site.phone}}</span></li>
+			<li><em>Write:</em> <span class="adr"><span class="street-adress">{{site.address.street}}</span>, <span class="locality">{{site.address.city}}</span> <span class="region">{{site.address.state}}</span>, <span class="postal-code">{{site.address.postal}}</span></span></li>
 		</ul>
   </div>
 </footer>
