@@ -21,7 +21,7 @@ body {
   font-family: $font-body;
   font-size: $size-body;
   line-height: 1.25;
-  //background: url('images/bg-body.jpg') repeat; 
+  //background: url('images/bg-body.jpg') repeat;
   color: $brown;
   background: $light-grey;
   text-align: center;
@@ -43,13 +43,13 @@ section,
 // Wrappers
 .wrapper,
 #messages .messages {
-  margin: 0 auto;   
+  margin: 0 auto;
   max-width: $page-width;
   position: relative;
   padding: 1em 0 3em;
 }
 #messages .messages { padding-bottom: 1em;}
-.region-footer { 
+.region-footer {
   padding-top: 3.5em;
   padding-bottom: 3em;
 }
@@ -63,7 +63,7 @@ section,
 h1, h2, h3, h4, h5 {
   font-family: $font-body;
   font-weight: bold;
-  line-height: 1.2; 
+  line-height: 1.2;
 }
 
 h1 {
@@ -103,7 +103,7 @@ var {
   font-family: $mono;
 }
 
- 
+
 
 /* =============================================================================
  *   Header -- Site H1, H2 and Logo; About Us; Footer
@@ -118,7 +118,7 @@ var {
   height: auto;
   padding: 3.67857em .5em 0;
 
-  .wrapper { 
+  .wrapper {
     max-width: $page-width;
     margin: 0 auto;
   }
@@ -155,7 +155,7 @@ h2#site-slogan {
   background: $brown url(../images/ducks.jpg);
   background-repeat: no-repeat;
   background-position: center calc(50% + 3em);
- 
+
   @include breakpoint("560px") {
     background: $brown url(../images/ducks.jpg) no-repeat center calc(50% + 3em);
     background-size: 150%;
@@ -174,7 +174,7 @@ h2#site-slogan {
 /* =============================================================================
  *   Footer -- Logo, Credits, Social Media
  * ========================================================================== */
- 
+
 #footer {
   background: $brown url(../images/footer_tile.jpg);
   background-repeat: repeat;
@@ -182,7 +182,7 @@ h2#site-slogan {
   color: $color-footer;
   padding-bottom: 1em;
 }
- 
+
 // webmeadow logo
 #footer #block-block-1 {
   margin-bottom: 1.75em;
@@ -190,8 +190,8 @@ h2#site-slogan {
     max-width: 224px;
     margin: 0 auto;
     text-align: center;
-    a { 
-      strong { 
+    a {
+      strong {
         text-decoration: underline;
         font: inherit;
       }
@@ -209,11 +209,11 @@ h2#site-slogan {
   margin: 0 0 .5em;
   p { margin: 0;}
   line-height: 1.5;
-  span { 
+  span {
     display: block;
     border: 0;
     margin: 1em 0 0;
-    padding: 0;   
+    padding: 0;
   }
 }
 
@@ -244,11 +244,11 @@ h2#site-slogan {
 }
 
 
- 
+
 /* =============================================================================
  *   Rows & Columns
  * ========================================================================== */
- 
+
 // Rows
 section .row {
   clear: both;
@@ -257,32 +257,32 @@ section .row {
 //  border-bottom: 1px dashed $grey;
 //  padding: 1.5em 0 0;
   &.how-it-works { border-bottom: 0;}
-} 
-#services .row { 
+}
+#services .row {
   border-color: $brown;
   padding-top: 0;
   &.inventories { padding-bottom: 4em;}
   &.inventories,
-  &.audits { 
+  &.audits {
     border-top: 0;
     clear: none;
   }
   &.audits { border-bottom: 0;}
-  &.get-started { 
+  &.get-started {
     border-bottom: 0;
     border-top: 0;
     text-align: center;
-  } 
+  }
 }
-  
- 
+
+
 // Columns
 .column {
   display: block;
   padding: 1em 2% 2em;
   float: none;
   font-size: em(21px);
-} 
+}
 #services .column {
   padding: 1px 0 1em;
   &.complications {
@@ -314,7 +314,7 @@ section .row {
   position: relative;
   background: $light-grey;
   z-index: 100;
-  
+
   @include breakpoint($break-tablet) {
     margin: 0 auto;
     .column {
@@ -322,7 +322,7 @@ section .row {
       background: $light-grey;
     }
     .column.left {
-      float: left;     
+      float: left;
     }
     .column.right {
       float: right;
@@ -332,7 +332,7 @@ section .row {
 // Reduce extra space between simple and smart audit
 #services .aud-simple { padding-bottom: 1px;}
 
-#worked-with, #meet {
+#worked-with, #meet,#transcripts {
   ul {
     display: inline-block;
     margin: 0;
@@ -347,7 +347,7 @@ section .row {
 #meet {
   @include cf;
   display:inline-block;
-  margin:0 auto;  
+  margin:0 auto;
   padding-bottom: 2em;
   li {
     display:inline-block;
@@ -355,11 +355,11 @@ section .row {
     max-width: 11em;
     margin-left: -.2em;
     @include breakpoint("450px") {
-      margin-left: .5em;      
+      margin-left: .5em;
     }
     @include breakpoint($break-tablet) {
       margin-left: 2em;
-    }    
+    }
   }
   li + li {
     margin-left: 1em;
@@ -379,7 +379,7 @@ section .row {
 
 }
 
-// Worked with 
+// Worked with
 #worked-with {
   ul {
     width: 100%;
@@ -391,7 +391,7 @@ section .row {
       width: 48%;
       margin: 3px;
     }
-    @include breakpoint("820px") { 
+    @include breakpoint("820px") {
       width: 30%;
       margin: 5px;
     }
@@ -413,7 +413,7 @@ section .row {
   list-style: none;
   padding-left: 0;
   li {
-    padding-left: 1.5em; 
+    padding-left: 1.5em;
     text-indent: -1em;
     margin-bottom: .5em;
     &:before {
@@ -430,23 +430,23 @@ section .row {
     padding: 0;
     margin-top: 0;
   }
-  .column { 
+  .column {
     padding-bottom: 0;
     &.freedom,
-    &.obstacle { margin-bottom: 1em;}   
+    &.obstacle { margin-bottom: 1em;}
   }
   h3 { font-size: em(30px, 21px);}
-}  
+}
 
 // Services Section
 #services {
   //background: $salmon;
-  .row p { 
+  .row p {
     //font-size: em($size-h4);
     margin-bottom: .5em;
   }
   ul { margin-bottom: 1.5em;}
-  .row strong { 
+  .row strong {
     color: $white;
   }
 }
@@ -463,12 +463,12 @@ section .row {
   @include border-radius(10px);
   padding: 1.25em em(10px) .5em;
   p { margin-bottom: 1em; }
-  strong { 
+  strong {
     display: block;
     //color: $color-aside;
     text-transform: uppercase;
-  } 
-  em { 
+  }
+  em {
     font-style: normal;
     font-weight: bold;
   }
@@ -505,10 +505,10 @@ section .row {
       //color: $color-aside-isnt;
     }
   }
-  
+
 }
- 
- 
+
+
 // Signup Form
 .webform-client-form,
 #webform-ajax-wrapper-1 {
@@ -517,24 +517,24 @@ section .row {
 .webform-client-form {
   &,
   & > div { overflow: hidden;}
-  .form-item { 
+  .form-item {
     width: 100%;
   }
   #webform-component-title-header {
     margin: 0 0 2em;
   }
-  #edit-actions { 
+  #edit-actions {
     text-align: center;
     position: relative;
   }
 }
- 
- 
+
+
 // Form Thanks Section
 #thanks {
   font-size: em(21px);
 }
- 
+
 
 
 /* =============================================================================
@@ -544,7 +544,7 @@ section .row {
 a {
   text-decoration: underline;
   color: $color-link;
-  
+
   &:visited { color: $color-link;}
 
   &:hover,
@@ -555,8 +555,8 @@ a {
   }
 
   // Footer Links
-  #footer & { color: $color-footer;}  
-  
+  #footer & { color: $color-footer;}
+
   &.btn {
     @include buttons();
     display: block;
@@ -576,7 +576,7 @@ a {
   display: block;
 }
 
-span.button { 
+span.button {
   margin-top: .5em;
   //line-height: 2;
 }
@@ -631,7 +631,7 @@ span.button {
  *   Forms
  * ========================================================================== */
 
-.ajax-progress { 
+.ajax-progress {
   position: absolute;
   width: 10%;
   margin-top: 3em;
@@ -641,7 +641,7 @@ span.button {
 /*
  * Wrapper for a form element (or group of form elements) and its label
  */
-.form-item { 
+.form-item {
 
   input.error,
   textarea.error,
@@ -649,8 +649,8 @@ span.button {
     border: 3px solid $highlight;
   }
 
-  label { 
-    font-weight: 700; 
+  label {
+    font-weight: 700;
     text-transform: uppercase;
     font-size: em($size-h3);
   }
@@ -660,16 +660,16 @@ span.button {
     color: $white;
     text-transform: none;
   }
-  
+
   .description { font-size: 1em;}
 
-  // Align Checkboxes 
+  // Align Checkboxes
   input.form-checkbox,
   input.form-radio { vertical-align: inherit;}
   &.webform-component-checkboxes {
     margin-bottom: 2em;
   }
-  
+
   // Text Boxes and Textareas
   .form-text,
   .form-textarea {
@@ -686,9 +686,9 @@ span.button {
     &:focus {
       background: $white;
     }
-  } 
+  }
   .form-textarea { margin-bottom: 0;}
-  
+
 }
 
 
@@ -795,7 +795,7 @@ div.messages {
   margin: 10px 0;
   padding-top: 1em;
   padding-bottom: 1em;
-  @include border-radius(5px);  
+  @include border-radius(5px);
   background-position: 16px 16px;
   ul {
     margin-top: 0;

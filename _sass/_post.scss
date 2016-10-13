@@ -1,41 +1,74 @@
-.small-image {
-	width:100px;
-	height:auto;
-	display: inline-block;
-	vertical-align: bottom;
+
+
+section#transcripts {
+    ul {
+        display:flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: flex-start;
+        margin:0;
+        padding:0;
+
+    }
+    li { width: 90%;
+        margin: 2px;
+        background-color: $lighter-grey;
+        padding:5px;
+        font-size: .75em;
+         @include breakpoint($break-mobile) {
+          width: 48%;
+          margin: 3px;
+        }
+        @include breakpoint("820px") {
+          width: 30%;
+          margin: 5px;
+        }
+
+
+        figure {
+            position:relative;
+            padding-top:1.5em;
+
+
+            .post-meta {
+                position:absolute;
+                top:0;
+
+                width:100%;
+                height:1.5em;
+
+            }
+
+            figcaption {
+                font-size:.75em;
+
+                a {
+                    font-weight: bold;
+                    text-decoration: none;
+                    font-size: .9em;
+                }
+            }
+        }
+    }
+
+
 }
-.post-info{
-  display: inline-block;
-  width: 85%;
-  padding-left: 20px;
-}
+p.archive-link {
+        text-align: center;
+        font-size: .9em;
+        margin:1.25em 0;
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            font-size: .9em;
+        }
+    }
 
 .blog{
-	font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
-	color: #6d4620;
-	background: #F8F4D6 url(../images/blog/woodpanel.png) repeat-x left top;
-	margin: 0;
-	padding: 0;
-	font-size: 1.167em;
-	.subheader-image {
-		img {
-			border: 10px solid #fff;
-		}
-	}
-  #header {
-    background:none;
-    padding: 0;
-    .wrapper {
-      padding: 0;
-      height: 98px;
-      margin: 0 auto;
-      h1#logo {
-      	margin: 0 75px 0;
-      	max-width: 450px;
-        padding: 10px;
-      }
-    }
-  }
+
+
   #site-slogan {
     display: none;
   }
@@ -46,9 +79,12 @@
     min-height:600px;
     padding-bottom:100px;
   }
-  h1, 
+  h1,
   h1.post-title{
     color: #515F22;
+    font-style: italic;
+    font-family: "Droid Serif", Georgia, "Times New Roman", Times, Baskerville, serif;
+    font-weight: bold;
   }
   h1 {
   	margin-bottom:15px;
@@ -57,22 +93,81 @@
   	padding-left: 0;
     list-style: none;
     text-align: left;
+    font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
     li{
       padding: 20px 0;
       border-top: 2px dashed #d5cbae;
+      font-size: .9em;
       &:first-child {
         border:none;
       }
+
+      img {width:200px;
+          height:auto;
+          display: inline-block;
+          vertical-align: top;
+          margin-top:0.25em;}
+    .post-info{
+    display: inline-block;
+    width: calc(100% - 220px);
+    padding-left: 20px;
+    }
       .post-meta{
-        font-size: 0.65em;
+        font-size: .9em;
       }
       h2 {
-        margin-top: 10px;
+        margin: 0.5em 0 0.25em 0;
+        font-size: 1.2em;
+        font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
         a {
-          color: #515F22;
+          text-decoration: none;
+          font-style: normal;
+          font-weight: bold;
         }
+      }
+
+      .excerpt {
+          padding-left:0;
+          font-size: .75em;
       }
     }
   }
 
 }
+
+article.post-content {
+
+    table {
+        width:100%;
+
+        td {
+            width:auto;
+        }
+    }
+}
+
+.PageNavigation {
+  display:flex;
+        flex-flow: row-reverse nowrap;
+        align-items: stretch;
+        align-content: flex-start;
+        margin:0;
+        padding:0;
+  list-style: none outside;
+
+  li {
+ @include breakpoint($break-mobile) {
+          margin: 3px;
+        }
+
+      a {
+  display: block;
+  margin: 1em 0;
+  text-decoration: none;
+}
+
+  }
+
+  .next {text-align: right;}
+}
+
