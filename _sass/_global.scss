@@ -68,9 +68,14 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-weight: normal;
-  font-size: em($size-h1);
+  font-size:em(0.75*$size-h1);
   margin: 1em 0 0;
   color: $white;
+}
+@include breakpoint($break-mobile) {
+    h1 {
+      font-size: em($size-h1);
+    }
 }
 h2 {
   font-size: em(.9*$size-h2);
@@ -147,6 +152,11 @@ h2#site-slogan {
   padding: em(32px, $size-h1) em(35px, $size-h1);
   font-family: $font-body;
   font-style: normal;
+
+  a {
+      color:#fff;
+      text-decoration: none;
+  }
 }
 
 #about-us {
@@ -838,4 +848,28 @@ div.messages {
     min-height: 260px;
     width: auto;
   }
+}
+
+
+/* back to top
+*/
+
+p.top-link {
+    display:block;
+    width:100%;
+    margin:0.5em 0;
+    font-size: 0.65em;
+    text-align: right;
+    font-style: italic;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+@include breakpoint($break-mobile) {
+    p.top-link {
+        width:950px;
+        margin:0.5em auto;
+    }
 }

@@ -1,7 +1,13 @@
 <header id="header" class="clearfix" role="banner">
 	<div class="wrapper">
 		<h1 id="logo"><a href="{{site.url}}"><img src="/images/logo.png" alt="{{ site.title }}"></a></h1>
-		<h2 id="site-slogan">{{site.slogan}}</h2>
+		<h2 id="site-slogan"{% if page.url != "/index.html" %} class="post-title"{% endif %}>
+    		{% if page.url == "/index.html" %}
+    		    {{site.slogan}}
+            {% else %}
+                <a href="/presentations/" title="Presentations archive">Slides &amp; Transcripts</a>
+            {% endif %}
+        </h2>
 	</div>
 </header>
 

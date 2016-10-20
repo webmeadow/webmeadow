@@ -5,11 +5,11 @@
 
   <body class="{{ page.bodyClass }}">
     <div id="page" class="container page">
-    
+    <a name="top"></a>
     {% include header.html %}
 
     {{ content }}
-
+    {% if page.url != "/index.html" %}<p class="top-link"><a href="#top" title="back to top">&#8593; back to top</a></p>{% endif %}
     {% include footer.html %}
 
 		</div>
