@@ -11,9 +11,9 @@ subheader: header-sub4.jpg
       <li>
         <div class="post-info">
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img src="/images/presentations/{{ post.thumbnail }}" align="left"></a>
-	        <h3>
+	        <h2>
 	          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-	        </h3>
+	        </h2>
 	        <section class="excerpt">{{post.excerpt | strip_html }}</section>
 	      </div>
       </li>
