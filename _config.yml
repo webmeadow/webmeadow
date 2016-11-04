@@ -6,7 +6,7 @@ address: {
     street: "507 North Skinny Ridge Road",
     city: "Littleton",
     state: "NH",
-    postal: 03561
+    postal: "03561"
     }
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://webmeadow.com" # the base hostname & protocol for your site

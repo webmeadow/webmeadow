@@ -1,19 +1,9 @@
-- name: Confab Central
-  month: May
-  day: 20-22
-  url: http://confabevents.com/events/central
+- name: Confab Intensive
+  month: Sep
+  day: 19-21
+  url: http://confabevents.com/events/intensive/2016/
 
-- name: UX Burlington
-  month: June
-  day: 12
-  url: http://uxburlington.com/
-
-- name: Giant Conf
-  month: June
-  day: 14-17
-  url: http://conf.giantux.com/
-
-- name: Non-Profit & NGO Summit
-  month: July
-  day: 17
-  url: http://nyccamp.org/summit/non-profits-ngo-summit
+- name: NAGW Annual Conference
+  month: Sep
+  day: 21-23
+  url: http://nagw.org/conference/2016
