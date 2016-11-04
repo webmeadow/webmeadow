@@ -8,10 +8,6 @@ subheader: header-sub4.jpg
 excerpt: "Many of the challenges that come from building a responsive site are based not in the technical implementation, but in the content. All your copy is now readable on a small screen, but is it useful there? Is it still serving the site and business goals? Who's actually going to write those blog posts?"
 ---
 
-[Source](https://bocoup.com/weblog/smaller-faster-websites "Permalink to Smaller, Faster Websites - - Bocoup")
-
-# Smaller, Faster Websites - - Bocoup
-
 The following is a transcript of a talk given at various events throughout 2015, including Bocoup's own [TXJS][1] and [Boston JS][2].
 
 ### Transcript
