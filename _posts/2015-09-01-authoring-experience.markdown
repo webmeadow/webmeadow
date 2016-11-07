@@ -6,7 +6,9 @@ categories: presentations
 thumbnail: authoring-experience.png
 excerpt: Improving the back-end, administrative user experience for the folks who are in charge of editing and creating new content on your site.
 ---
-<script async class=“speakerdeck-embed” data-id=“40746bbd65b944eb848e90ab1be552c0” data-ratio=“1.77777777777778” src=“//speakerdeck.com/assets/embed.js”></script>
+
+<script async class="speakerdeck-embed" data-id="40746bbd65b944eb848e90ab1be552c0" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
 
 Versions of this talk and workshop were presented at [UX Burlington](http://uxburlington.com/), [IA Summit](http://iasummit.org/), and [Confab Intensive](http://confabevents.com/events/intensive). 
 

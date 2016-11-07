@@ -17,6 +17,8 @@ aaron_twitter: aparkening
 slogan: We help progressive organizations develop content and technology strategies that fulfill their missions to make the world a better place.
 # Build settings
 markdown: kramdown
+permalink: none
+
 exclude: [
   "node_modules",
   "build",
