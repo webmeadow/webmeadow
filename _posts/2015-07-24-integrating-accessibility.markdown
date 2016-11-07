@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Integrating Accessibility: Planning Content for Everyone"
+title:  Integrating Accessibility – Planning Content for Everyone
 date:   2015-07-24 18:49:42
 categories: presentations
-thumbnail: integrating-accessibility.png
-subheader: header-sub1.jpg
+thumbnail: integrating-accessibility.jpg
+excerpt: Some quick, relatively-easy ways to start bringing accessibility thinking into your content development processes.
 ---
 <script async class="speakerdeck-embed" data-id="2ec149c69c0d4e78b080007b920ea3c2" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 

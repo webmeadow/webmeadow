@@ -1,0 +1,340 @@
+---
+layout: post
+title:  Be Your Own Project Manager
+date:   2015-05-24 18:49:42
+categories: presentations
+thumbnail: be-pm.png
+excerpt: Content strategists often find themselves leading teams and becoming impromptu project managers.
+---
+<script async class=“speakerdeck-embed” data-id=“13bba38dd4094a08abce559783fd20cc” data-ratio=“1.77777777777778” src=“//speakerdeck.com/assets/embed.js”></script>
+
+This talk was presented at [Confab Central](http://confabevents.com/) in May 2015.
+
+## Transcript
+
+Hi everyone, I’m Aaron!
+
+A long time ago, in a galaxy far far away, I was a front-end web developer. I liked the work, but when I looked at how my time was being used, I realized that half of my job was managing the projects that I was trying to build. I was helping stakeholders work through their goals, chasing after content, making sure colleagues were getting their work to me on time, and 40 other things that weren’t actually coding.
+
+Now that I’m a full-time project leader, I hear the same kinds of stories from content strategists because of where they sit at intersections of user experience, marketing, and writing. The people I’ve spoken with about project management fit into 3 categories:
+
+1.  They’ve identified a problem, like a chunk of content that wasn’t following the message architecture, and now they’re in charge of fixing it. Yay?
+2.  They’re on an existing team, and they’ve been getting a lot done, but it feels like barely contained chaos.
+3.  They’re on top of their own work, but they could be better at managing their time and energy.
+
+All these people know that project management techniques can help them, but they don’t know where to start. They don’t want to become certified, full-time project managers, but they know something needs to change so that their projects run more smoothly.
+
+So what are we going to talk about? Today we’ll cover:
+
+1.  Preparing for success – all the pieces you need to have in place before the project begins.
+2.  Keeping things on track – ways to maintain momentum and ensure that you’re moving toward your goals.
+3.  Ending well – steps to celebrate what you accomplished, learn from successes and mistakes, and prepare the way for better future projects.
+
+### Get specific about success
+
+My first step in preparing for success is defining what success means for this project. It’s tempting to skip this step and jump straight into tasks. After all, everyone knows success when they see it, right? But if we don’t come up with a shared definition of success, people will come up with their own definitions of what the project should be, and they’ll probably be different, and they may even contradict one another.
+
+Defining success at this stage will allow everyone to share the same vision and move toward a unified goal. So I start by asking: when this work is complete, what will improve in your organization?
+
+> I had an architecture client that was overhauling their website, and success for them meant getting more government and commercial leads in their sales pipeline.
+
+Another important question I ask is: how will your own work improve from the project? Personal motivation helps me as a leader understand what my team wants to get from this project, and it helps my team stay interested in the project when things get tough.
+
+> As part of this website overhaul, we also worked on an image library, and the main designer was excited because the writing teams would no longer need to contact him every time they needed a picture. When he was getting a bit frazzled later in the project, I just looked at him and said, “pictures.”
+
+Then I jump into success indicators by asking: How will you recognize and measure success? I aim for 1–2 success indicators per goal, and the key is to be as specific as possible – each indicator should be distinct enough that we can measure it.
+
+> We decided that one measure of success was if commercial and government leads increased by 10% within 4 months of site launch.
+
+### Map out all the steps
+
+Once we can recognize success when we see it, it’s time to map out the steps to get there.
+
+So that comes down to 3 questions:
+
+1.  What are the steps to successfully complete this project?
+2.  Who will be doing each step?
+3.  And how long will each step take?
+
+> For my architecture client, we broke down the interview process into:
+> 
+> *   Our researcher taking a week to find 5 people to interview
+> *   Me taking 4 days to schedule all the interviews
+> *   The whole team using a week to conduct all the interviews
+> *   And the whole team meeting for an afternoon to summarize the interview findings.
+
+I’ll own up to it now: this is a lot of work!
+
+Maybe you feel like you don’t have the time to map out these steps. Maybe you and your team just want to get started. But if you don’t take the time to think this through now, you’ll spend a lot more time in reaction mode during the project.
+
+Plans help us understand:
+
+*   Where we are in the process.
+*   What we’ve accomplished.
+*   What’s coming up next.
+
+Plans also give us options when things go wrong.
+
+> When the content rewriting phase of the project took a full week longer than I anticipated, having a plan allowed me to see where we could shave off time to make up for the delay.
+
+I can tell you after many, many projects, if you don’t have time to plan, you don’t have time to project.
+
+#### Simple lists and charts
+
+And the plan doesn’t need to be elaborate; it could be a simple list. Marking down that interview process of finding 5 people to interview, scheduling each interview, conducting the interview, and summarizing the interview findings worked very well as a bullet list.
+
+When we have a small number of tasks, lists are great.
+
+Once we start getting into a lot of steps, however, maybe with dependencies, like needing testimonials from our clients before finalizing home page content, or multiple things happening at once, like content revisions running at the same time as graphic design, a list can get hard to read. This is when it’s time to bring out a chart.
+
+A chart allows us to immediately get a visual sense of the steps and how they relate to each other.
+
+#### Use your experts
+
+As I’m writing out all these steps, I find it helpful to involve team members in the process, as they often know more about detailed tasks, timing, and potential roadblocks than I do. My team can also help me adjust the order of tasks and timing to accommodate their availability.
+
+> Our developer showed me that I should double the time for device testing, and then she let me know she was on vacation the week after. Involving her while I was making the plan meant that I didn’t need to adjust absolutely everything after I thought it was done.
+
+#### Estimating time
+
+As you’re marking estimated times for tasks, your first instinct might be to use hours, especially if your organization bills hourly.
+
+I’m not a fan of hourly, because it’s too hard to get a sense of what a project looks like when it’s 450-hours, for example. That’s like saying I have 450 quarters – can I buy that $100 case of gummy bears? It’s possible to figure out, and the answer is yes, but I need to do a bunch of work to learn the answer.
+
+Instead of hours, the time increment I use depends on how I describe the overall project. If the project will take weeks, I’ll mark my individual steps in days.
+
+> In my 7-week project, I’d say auditing content would take 12 days.
+
+If the project will take months, then I’ll mark my steps in weeks.
+
+> In my 8-month project, I’d say wire framing would take 4 weeks.
+
+#### Round up time estimates
+
+And when I’m planning a schedule, I increase our time estimates by rounding up, especially when I have ranges of time for a task, and adding 20% of time to the overall effort.
+
+While we’re adjusting effort, a really hard thing to remember is that project management itself takes time. If I’m doing some of the tasks on a project, I need to remember not to fully book myself. I can’t expect myself to be 100% efficient when I’m leading the project. So, for example, if wire framing usually takes me 2 weeks, I’ll budget 3.
+
+I add in all this padding for two reasons:
+
+1.  Because it’s much better to have the project finish early than run late.
+2.  To allow for things to go right. Lots of people talk about adding time to a plan to account for roadblocks and unforeseen problems. I choose to think of this additional time as allowing us to find great solutions.
+
+> In my architecture project, we ended up having an extra week in the IA/content strategy phase, and the content strategist had time to explore a really clever taxonomy solution that she wouldn’t have had time to find under a snug deadline.
+
+#### Project risks
+
+So we’ve marked out the who, what, and when, and added a bit of time for things to go right, it’s time to take stock of risks, to identify things that could go wrong.
+
+As with the other planning steps, it’s helpful to involve your team here.
+
+As I spot each risk, I write down what steps can be taken to solve the problem, or even better, what I can do to reduce the possibility of the problem happening to begin with.
+
+> In one of my projects, I knew that a vice president had a reputation for swooping in with last-minute revisions, so I added an extra check-in with him _1 week before_ the content was finalized.
+> 
+> In another project, one of our designers was due to go on maternity leave soon, so we made sure to have some good freelancers on speed dial in case she needed to leave before the project was completed.
+
+#### Timelines and Gantt charts
+
+Now if we take all these steps and time estimates and string them together, we’ve got ourselves a timeline.
+
+Timelines are a really easy way to convey the shape of the project. They clearly show the order of tasks and how long they take in relation to one another.
+
+For a relatively simple project, this kind of linear timeline is perfect. But once we have a lot of tasks that overlap, we need a bit more from our timeline.
+
+Enter the Gantt chart. The Gantt chart shows who is doing what and when they’re doing it, even when multiple tasks are happening at the same time. It can look complicated, but it’s just a list of tasks on the left and a bunch of stacked timelines on the right.
+
+Now that I’ve tried to convince you that Gantt charts are simpler than they appear, you should know that no one else believes this. When I’ve handed Gantt charts to stakeholders in the past, I’ve seen really panicked looks.
+
+So I recommend this tool and this level of detail for you as the a leader, but consider making a simplified chart or linear timeline to share with others.
+
+#### Project snapshot
+
+Once I feel confident that I’ve thought through tasks and risks, I like to make a simple project summary, so that I can speak to people without giving them the full project rundown.
+
+I include:
+
+*   Project goals
+*   Success metrics
+*   Groups of tasks
+*   Milestones
+*   Potential risks
+*   Project timeline
+
+I often use this when I’m helping my boss, stakeholders, and other departments understand the broad strokes of the project and its goals.
+
+### Formal kickoff meeting
+
+After all this planning, you may want to just hand out tasks and get everyone started. But I think it’s important to have a formal kickoff meeting to show everyone the shape of the whole project and answer questions, to allow team members to understand how their pieces relate to each other, to match faces to names and tasks, and to give another chance to refine the plan, just in case we missed something.
+
+During the kickoff meeting, there are 3 things I like to cover:
+
+1.  I introduce each person w/ a little background information if we’ve never worked together before. And I explain each person’s role on the project, including my own.
+2.  I review the project plan in detail to ensure everyone understands what we’re doing, how we’re doing it, and why. This is a great time to make adjustments to the plan if any missing pieces are revealed.
+3.  I go over the mechanics of the project: how often we’re having status meetings, how we’re going to share information, when things should be submitted for review, and so on.
+
+> The mechanics of my architecture project were to have status phone calls every Wednesday morning, communications in Basecamp, and deliverables due the day before each presentation.
+
+### Plans change
+
+Once I’ve made the plan and shared it with everyone, especially after the kickoff meeting, it’s easy to think it’s immutable. But the plan just that, a plan. And plans change as we move through them.
+
+Changing the plan doesn’t mean that making it was pointless. It’s always easier to edit than write the first time, especially in the middle of a project.
+
+In fact, I build adjustment into my workflow of every project. Every week, after our status call, I review my project plan and make adjustments as necessary.
+
+We’ve prepared and kicked off the project, and now that everyone is working on project tasks, we move into keeping things on track by communicating with everyone a LOT. Let me repeat that: A LOT.
+
+### Status updates
+
+First of all, we’re going to have weekly status updates. This means that no one is ever more than 5 days out-of-date. During a really tricky part of a project, I might have updates more often, even daily.
+
+It’s easy to just talk about roadblocks and items in progress during status updates with team members or stakeholders, but that only reveals part of the picture. I think it’s easy to lose track of where we are in the project if we don’t also highlight what’s been completed and what’s coming up next, so I usually include 4 items in my status communications:
+
+1.  What’s been completed: We finished Home page content revisions and presented inner page layouts. We’re 60% done with the design phase of the project.
+2.  Roadblocks encountered: Infographics are two days behind. I’ve talked with the designer and should have final versions by Friday.
+3.  What’s in progress: Home page design is chugging along and inner page layouts have been approved.
+4.  Next steps: We’re presenting final home page designs to the CEO next Tuesday. We’re in the home stretch!
+
+### Talk between meetings
+
+Next, we’re going to talk in between meetings.
+
+We might be Slacking, we might be texting, there might be Google Hangouts, I might just stand by your desk and watch you work.
+
+Sometimes projects get stuck in little ways, nothing so formal that anyone would think to ask me for help. But when it comes up in conversation, I can help.
+
+> While I was chatting with the project designer, he said offhand that he was confused about the content on the services page. I reached out to the content strategist and we figured it out together. Simple and easy, not worth a scheduled meeting.
+
+When we’re talking, questions always come up, so I want to set this expectation: when anyone has a question (including me), it’s my job to find the answer.
+
+When I don’t understand what someone is working on, I talk to them. And if I wonder whether I should update a stakeholder, I do it.
+
+What I’m trying to avoid is anyone feeling surprised by anything during the project, even if that means over communicating. I might be annoying, but people say I’m really good at my job.
+
+### Milestone and delivery meetings
+
+Here’s a thing that happens all the time: someone presents a deliverable, like a message architecture or a wireframe. They put it up on the screen and they stand back and say, “what do you think?” That is THE WORST!
+
+People start commenting on the color palette when they should be focused on the information architecture. Or they’re making edits to the wording even though it was finalized weeks ago.
+
+These meetings waste time and make everyone feel like no progress is being made.
+
+Instead, I start by reviewing 3 things:
+
+*   Project goals
+*   Meeting goals
+*   The type of feedback we’re looking for
+
+> It goes a little something like this: Today we’re looking at the home page design. Quick reminder that the point of this project is to update our website, to showcase our newest service offerings. For this design, we’re looking to get approval on the overall direction and make a decision on what kind of photo we want to use for the hero image. We’re not talking about navigation labels or the intro paragraph because we’re not dealing with those until next week.
+
+### Mid-project problems
+
+We come to another hard truth: after all our planning and communications, once we’re in the project, we’ll probably still run into problems.
+
+I talked earlier about making adjustments to the plan, and problems can be a bit more intense than mere adjustments. Most of these problems fall into two categories:
+
+1.  The scheduling kind of problem, where things aren’t happening when you thought they would.
+2.  The approval kind of problem, where something that you thought was finished needs more work.
+
+For most people, if they’re faced with a problem, the natural impulse, especially if they’re put on the spot in a presentation meeting in front of a bunch of people, is to panic.
+
+The first most important thing in this situation is to take a deep breath.
+
+Do you work in a hospital? Or with nuclear launch codes? No? Then chances are whatever is going wrong, no matter how much people are freaking out, is not actually an emergency.
+
+I’m not saying this to belittle your work or your project. But when something is going wrong: anxiety begets anxiety which begets mistakes and more problems.
+
+The best possible thing you can do for the benefit of your project and your team is to be the person who maintains a bit of calm perspective.
+
+So let’s get a bit deeper here. After a calming breath, I like to puzzle out the problem. I treat problems like mini projects:
+
+1.  I define the problem
+2.  I work with my team to figure out a path around the problem
+3.  I set a timeline for implementation
+
+> On one of my projects, a new vice president came on board, and she didn’t agree with the taxonomy that we had developed and finalized. The team talked it through and realized that she needed context, so we scheduled a special meeting to go over project history up to that point. It turns out that that vice president wanted to contribute to the project, so we pushed the schedule out by a week to give time to incorporate her ideas.
+> 
+> And while we ended up delaying the project by a week, everyone ended up happy. We couldn’t have found the solution if we hadn’t started out by taking a breath and being calm.
+
+It’s also worth mentioning that when I hit a problem, all my previous work comes into play. If I’ve been communicating all along, I’ll have a lot more support than if I hid the problem until the last moment. Additionally, if I’ve been communicating consistently, we probably aren’t too far into the problem before we’re addressing it.
+
+### Ending well
+
+The end of the project is the best part. We’ve done ALL the things and solved ALL the problems. ::Fist bump:: We’re finished with the hard work, and it’s almost time to celebrate.
+
+Just like it was important to have a formal kickoff meeting at the beginning of the project, it’s important to have a formal closing at the end.
+
+We might be tempted to give everyone a high five and move on to the next thing. But I think this doesn’t properly acknowledge the work that everyone accomplished and we miss out on sharing lessons learned along the way.
+
+This is also our chance to tell the complete project story. It’s easy for us to forget everything but the last month of a project, or to remember a big roadblock, but not the clever solution that fixed it.
+
+#### Final presentation meeting
+
+So I hold two meetings. The first is the final presentation meeting in front of as many stakeholders and organizational leaders as possible because this project benefits the organization and I want myself and my team recognized for our good work.
+
+As with our previous milestone and delivery meetings, I set the context and tell the story with:
+
+*   My goals for the meeting and the overall goals for the project
+*   Then I review the final results or deliverables, and summarize how we got here, including key decisions and significant wins made along the way.
+
+It’s easy to just talk about goals, decisions, and solutions at the end of a project, but we all like to feel appreciated, so I like to end this meeting by highlighting each team member and acknowledging something that they did really well during the project. This work literally couldn’t have been done without the team.
+
+#### Retrospective meeting
+
+The last last meeting is the project retrospective. It lets us get deep into what worked and what didn’t, allowing everyone to learn from our successes and difficulties.
+
+I always hold a retrospective with my team, and I often hold a separate one with my stakeholders.
+
+I start by reviewing the purpose of the meeting, which is to have each person share honest and detailed feedback so that we can improve our process. Then I move into 3 categories of questions:
+
+1.  What worked? What was your smoothest task? What were you dreading that turned out okay?
+2.  What didn’t work? What took way more time than you thought it would? What roadblocks were hardest to get around?
+
+This one takes a bit of finesse to keep the meeting on track: We want learn from our mistakes and give everyone a way to share their frustrations, but we don’t want to dwell on failures to the exclusion of everything else or get into blaming. The way I deal with this is to acknowledge what’s being said and write it down so that it doesn’t get lost, and then gently move on to the next person.
+
+1.  What are you looking forward to now that the project is complete? What’s the impact of this project on your work?
+
+Not only is this retrospective meeting helpful for actually doing a better job in the future, but it communicates to everyone that you’re proactive and want to learn from wins and mistakes.
+
+That brings us to our own ending well. My goal today was to share with you some of my techniques so that you can improve your own projects. To recap:
+
+1.  Prepare for success by doing a ton of planning before the project starts.
+2.  As you progress, communicate profusely and help your team present deliverables in a way that gets useful feedback. When you encounter problems, take a breath, and work together to find a path around them.
+3.  When your project reaches its end, celebrate success and make plans for improving your process next time.
+
+Whether you’re newly in charge of a project, you’re already part of an existing effort, or you just want to improve your own work, I hope you found these techniques helpful.
+
+### Discussion
+
+So I’ve covered a lot techniques, but I haven’t covered all the things ever. I want to take some time to talk through challenges that you’re facing.
+
+*   Do you have a problem in your projects that you don’t know how to deal with?
+*   Is there a piece of your project or your work that you find hard to communicate?
+*   Maybe you make plans and find yourself throwing them out 2 weeks? That’s sad.
+
+[Many questions were asked and answered.]
+
+Q: What are some tools that you recommend for managing projects?
+
+A: Hah, now I get to show you that I thought ahead! I’ve included the following 2 slides that go through just a few tools that I use every day. There are many more out there, but I only use a few.
+
+#### Communication Tools
+
+Basecamp: If you don’t want everything stored in your email, Basecamp is great for storing all project communications. It can store lots of file types and has todos and calendars.
+
+Slack: Slack is super easy to get started with, and then you discover more powerful features! I won’t spoil it for you by going more into it.
+
+#### Planning & Execution Tools
+
+TeamGantt: Easy Gantt charts that are editable by teams with easy exports for sharing.
+
+dapples: Great for task review and execution. Excellent task-based communications, but no timeline or Gantt chart task views.
+
+Wanderlust: Intuitive todo list that syncs across devices and can be collaborative.
+
+[2 more questions were asked and answered.]
+
+That’s all the time we have left. I’m happy to continue talking about making projects better; feel free to come talk to me now or corner me during the rest of Confab.
+
+Thank you!
