@@ -1,17 +1,17 @@
 ---
 layout: post
-title:  Coaching Success – Training Strategies for Building Strong Teams
+title:  Coaching Success – Training strategies for building strong teams
 date:   2016-09-24 18:49:42
 categories: presentations
-thumbnail: /presentations/slide_images.001.jpeg
+thumbnail: coaching_slides/slide_images.001.jpeg
 excerpt: The strongest project strategies are the ones that integrate specific plans for teaching and training team members.
 ---
-
+![Coaching Success: Training Strategies for Building Strong Teams](/images/presentations/coaching_slides/slide_images.001.jpeg)
 This was originally presented at [National Association of Government Web Professionals Conference](http://nagw.org/conference/2016) in September 2016. 
 
 ## Full Transcript
 
-![Coaching Success: Training Strategies for Building Strong Teams](presentations/slide_images.001.jpeg)
+![In the beginning: a classroom](/images/presentations/coaching_slides/slide_images.002.jpeg)
 
 When I was 13 years old, my mom took me with her to a meeting. Now, when my mom was pregnant with my older sister, she ran for a spot on our local school board. She won, and stayed on the school board for the next 18 years, so my childhood is full of memories of reading my book in the back of the room during meetings with superintendents, and union reps, and budget committees, and all the rest.
 
@@ -19,23 +19,35 @@ But this particular meeting, at the County Office of Education, it was a weekday
 
 I remember, I was the only kid there – which was pretty standard – but the rest of the group was a whole mix: there were a couple school board members, the district secretary was there, and a bunch of teachers, and some classroom aides.
 
+![Behold the internet: a computer](/images/presentations/coaching_slides/slide_images.003.jpeg)
+
 And at the front of the room, was a guy with a computer. He said that he was going to teach us how to hook a modem up to a computer, and how to connect to the world wide web. The county had gotten a grant from the state, to provide a local dial-in number and training, to get teachers and other people in the district onto the internet.
 
 The browser of choice was NSCA Mosaic, and the webpages, they looked like this:
 
+![old webpages with lots of text](/images/presentations/coaching_slides/slide_images.004.jpeg)
+
 If someone was feeling fancy, they might look like this:
+
+![old webpages with lots of text and bad images](/images/presentations/coaching_slides/slide_images.005.jpeg)
 
 Y’all remember the internet back then? It was just information. Walls of text. Stuff was hard to find, it was ugly, and it was **magical**.
 
 As time passed, and more and more people started getting online, we started building sites that _looked_ cool. Now, in the early part of this phase, we were just taking our boring informational walls of text and snazzing them up a bit. But as time went on, the design tools got even fancier, and the pages got really busy.
 
+![cluttered webpages](/images/presentations/coaching_slides/slide_images.006a.jpeg)
+
 I don’t know if any of y’all have studied architecture, or interior design, but we moved to something that sort of reminds me of late baroque, French gilded, rococo-style work.
+
+![gold-gilded plasterwork room](/images/presentations/coaching_slides/slide_images.006b.jpeg)
 
 Like: there’s a lot going on here. Every corner that could be filagreed, will be filagreed. It’s elaborate. It’s ornate! It is: hard to use. Where do you take a nap in this room?
 
 Now, the complexity of the layouts and the ornamentation on those sites, that work really pushed us forward, in terms of tools, and web standards, and browser capabilities. And the next phase, in the world of web design, was both a reaction to, and an evolution of, those elaborate, hard-to-use sites.
 
 We were starting to say, “OK, this is **pretty**. Now how can we make it **easy to use**?”
+
+![clean pretty sites](/images/presentations/coaching_slides/slide_images.007.jpeg)
 
 This is when User Experience starts to be an organizing principle for our work:
 
@@ -45,15 +57,21 @@ This is when User Experience starts to be an organizing principle for our work:
 
 That was a new way to frame our projects, and it led to a huge set of lovely, interesting, easy-to-use sites.
 
-So in only a couple of decades, we went from 1) unsettled information: it got you where you wanted to go, but it wasn’t very pleasant. 2) Then we started adding colors and fonts and sparkles and tables, until we ended up with a lot of sites that were elaborate, and beautiful, but not particularly functional.
+![a dirt path, a complicated ropes course, and a sturdy boardwalk](/images/presentations/coaching_slides/slide_images.008.jpeg)
+
+So in only a couple of decades, we went from 1) unstyled information: it got you where you wanted to go, but it wasn’t very pleasant. 2) Then we started adding colors and fonts and sparkles and tables, until we ended up with a lot of sites that were elaborate, and beautiful, but not particularly functional.
 
 3) Then! We took the best parts of that beauty and reframed it to focus on the user. That’s where I think we are now, in the middle of this Glorious Age of User Experience.
 
 And when we launch a site, or a project, or a set of new features, that are really focused on making things easier for our users, it feels great. I can watch people use the site and they’re able to do more, and they hit fewer roadblocks, and maybe, if we’re launching a responsive site, people are extra-impressed with how usable it is on their phones. Everything feels like a huge success, when we’re focused on the user.
 
+![three confusing road signs](/images/presentations/coaching_slides/slide_images.009.jpeg)
+
 And then: a few months pass. And I circle back to a new section or feature, and it’s just – a little ragged, a little confusing. Maybe there’s some content that’s out of place, or some category names that don’t make sense, or some messages that feel clunky, and things are starting to feel _hard_ to use again, instead of _easy_.
 
 When I trace it back, what this comes from, usually, is that the folks whose day-to-day work is maintaining this site (whether they’re content editors, or designers, or developers) are making decisions that aren’t in line with the original strategy for the project.
+
+![making easy things is hard](/images/presentations/coaching_slides/slide_images.010.jpeg)
 
 So even though the point of the whole project was, for example, to streamline an application process, or to make it easier to find program guidelines, or to connect users with the right phone number, those things are getting harder again. Those paths are becoming complicated, and confusing.
 
@@ -62,6 +80,8 @@ I started paying attention and noticed I was seeing this same problem, over and 
 Now, none of these projects were a mess otherwise – they had solid foundations, and decent budgets, and organizational support.
 
 They had good leaders! They also all had project leaders who were very focused on _leading_.
+
+![project leaders know where we’re going](/images/presentations/coaching_slides/slide_images.011.jpeg)
 
 As a group of people who lead projects, you know that that work requires a very particular kind of mindset: the person in charge needs to see the path ahead clearly enough to define its edges and understand where the team going.
 
@@ -73,6 +93,8 @@ Right? We want someone who knows what we’re getting into, who will help the te
 
 Where this falls apart, I think, is that one person is just: one person. One person who is busy, goes on vacation, gets distracted, and has other projects to deal with.
 
+![leadership is a problem when only one person holds the vision](/images/presentations/coaching_slides/slide_images.012.jpeg)
+
 The problem with leadership is that it creates a dynamic where only one person is holding the vision. The rest of the team is freed from the obligation to hold that vision, because the leader is doing such a good job.
 
 That one person can see the path, and the map, and the forest, and the trees – all at once – but when she needs to miss a meeting, or the team starts branching off and taking on parts of the project on their own, they often don’t have enough information to stay in line with the plan.
@@ -83,11 +105,15 @@ I was in a bad place: I had reached this same point on a bunch of projects in a 
 
 I came to the point where I was pretty sure, that the only way for these projects to succeed was for me to just – micromanage the shit out of everything.
 
+![even when it’s for a good cause, it’s still micromanaging](/images/presentations/coaching_slides/slide_images.013.jpeg)
+
 I would edit every piece of writing, to make sure that the subheads were being used correctly. I’d sit with designers and guide their hand into choosing the best image for a new story. I would review the style guide with the developers before every tiny decision, to make sure they were choosing the right fonts and button types.
 
 I had planned this beautiful, flexible, versatile system, and I resigned myself to believing I was going to have to leave it in the hands of people who didn’t understand anything about how to use it.
 
 I’d resigned myself to believing, on a regular basis, that my team members were kind of dumb.
+
+![believing other people are dumb is actually a problem with me](/images/presentations/coaching_slides/slide_images.014.jpeg)
 
 Here’s the thing about thinking someone else is dumb.
 
@@ -100,6 +126,8 @@ B of all) Even if it were true, even if someone on the team isn’t a strong wri
 If I decide they’re the problem – “Jack just cannot understand our new workflow” – I’ve painted myself into a corner. Where can I go from there?
 
 I don’t have the power to fire people. Even if I did, I don’t want to. And hiring a new person doesn’t solve the problem: _they also don’t understand the new workflow_.
+
+![personal growth: it’s real, y’all](/images/presentations/coaching_slides/slide_images.015.jpeg)
 
 So, at the same time I was coming to understand these constraints in my projects, over in my personal life, I’d been on… a journey of discovery.
 
@@ -117,6 +145,8 @@ Ugh, _freaking Buddha of compassion_. Fine. FINE.
 
 So, the only person I can change is myself. What does that mean for training? What does that mean for the way I lead my projects? Or teach my teams strategy?
 
+![how we like to communicate strategy: pure magic, and wishful thinking](/images/presentations/coaching_slides/slide_images.016.jpeg)
+
 The way I used to communicate the strategy of a project was two-fold:
 
 1) Osmosis. If you’re in meetings with me, you should just be absorbing all of this strategy, like, via my aura and electromagnetic field.
@@ -133,11 +163,15 @@ I mentioned earlier that I feel like we’re in the Glorious Age of User Experie
 
 I think it’s time for us – as leaders, as strategists, as managers – to take that empathy and compassion that we have found for our users, and put that same level of attention and detail into how we run our teams, and how we train our teams.
 
+![let’s do more like this](/images/presentations/coaching_slides/slide_images.017.jpeg)
+
 What does that look like? We need to think about delivering:
 
 Smaller chunks of training, that are more narrowly targeted to individual workflows, in the formats that are most helpful, in-context when people need them. We need to give our teams the space to practice working in the new setup, and we need to build in opportunities for repetition, without the sense of impatience that usually goes along with practice and repetition.
 
 These seem pretty straightforward, right? They’re not mind-blowing. So, why haven’t we done this before? What’s gotten in the way?
+
+![these get in our way: urgency and control](/images/presentations/coaching_slides/slide_images.018.jpeg)
 
 Two things I think we need to address and acknowledge and deal with: urgency, and control. Let’s start with urgency.
 
@@ -151,6 +185,8 @@ The Pew reports on internet usage come out every year, and the numbers only go u
 
 There’s this underlying pastiche of panic and, sort of, frantic scrambling, that the world is moving, **the needs of our citizens are moving**, and we’re not keeping up.
 
+![urgency is good for getting started, and not much else](/images/presentations/coaching_slides/slide_images.019.jpeg)
+
 You’ll note that I’m not calling it a _false_ sense of urgency. It can be absolutely real, but being real doesn’t always mean that it serves us well.
 
 Urgency can be a great momentum-builder; it can be the thing that gets us off our butts, that starts the ball rolling, that gets people to pay attention.
@@ -161,17 +197,21 @@ But once things are moving, urgency is the tiny devil on our shoulder, whisperin
 *   it’ll save time to just build this new feature now, and come back to do documentation once it’s up and running, or
 *   we can finish the whole redesign this quarter if we migrate all the old content as-is, and revise it later!
 
+![urgency lies](/images/presentations/coaching_slides/slide_images.020.jpeg)
+
 Real talk: urgency lies.
 
 Urgency cares only about speed, and not about quality.
 
-Urgency is what makes you think this [IRS document] is a reasonable layout for a form, or that this [wall of text] seems like a decent way to explain to the public what your office does.
+Urgency is what makes you think this IRS document is a reasonable layout for a form, or that this wall of text seems like a decent way to explain to the public what your office does.
 
 That is some hot nonsense, right there.
 
 Urgency is the lie that tells us it’s better to just have something done than to have it done well. Urgency drives us to think that the most important thing is to lead briskly, to get it done, to cross the finish line.
 
 And most of us have been working with urgency for so long, that we’re pretty competent in here. It feels like some kind of normal.
+
+![a project that’s not sustainable is barely worth doing at all](/images/presentations/coaching_slides/slide_images.021.jpeg)
 
 But what we’ve lost in listening to urgency is any kind of sustainability. As project leaders, we _always_ cut the corners around making sure that the whole team understands and believes in the goals and strategy behind the project.
 
@@ -181,11 +221,15 @@ If you want to end up “finished”, you listen to urgency. But if you want to 
 
 That’s the only way you’ll ever come to a place where the designer chooses exactly the right photo for a page header, or the developer builds an accessible feature right from the get-go, or an author includes all of the right categories and metadata on their first try. They can do only do those things once they understand the project goals, and the reasoning behind decisions, in a deep, foundational, fundamental way. That kind of deep, in-the-bones, understanding, does not come – cannot come – from a training document and a webinar.
 
+![urgency can be tamed with a deep breath](/images/presentations/coaching_slides/slide_images.022.jpeg)
+
 Urgency is, all things considered, a relatively easy issue to work through. It’s mostly an awareness issue.
 
 It’s pretty easy to make the argument that our work is better when we take the time to be thoughtful. That pushing out launch by a few weeks is worth it, if what we get in return is a team maintaining the site who’s incredibly confident and skilled in their abilities.
 
 Tackling urgency is a matter of mindfulness: we have to recognize that we’re getting sucked under by its siren song, and choose differently.
+
+![control feels so good](/images/presentations/coaching_slides/slide_images.023.jpeg)
 
 Control, though!
 
@@ -195,6 +239,8 @@ I like being the person who knows what the plan is, and not only that, but I lik
 
 Control says to me that no one else is smart enough understand the strategy, that the project is lost without me, that a stranglehold is the only way to steer.
 
+![control is a jerky jerkface](/images/presentations/coaching_slides/slide_images.024.jpeg)
+
 Control is kind of a jerk.
 
 No one understands the strategy… because I haven’t taught it to them. The project is lost without me… because I built it that way. The only way to figure out a problem is for me, personally, to deliver the solution… because I set myself up to be the hero.
@@ -202,6 +248,8 @@ No one understands the strategy… because I haven’t taught it to them. The pr
 None of those things are true. Or, rather, they are true, because I engineered them to be true. But control says that’s the only way to run a project, and that is a straight-up lie.
 
 OK. So apparently I’ve decided to base part of my sense of self-worth on how rigidly I control a website project? That seems healthy. How, pray tell, can we get away from that?
+
+![tweet from Lin-Manuel Miranda: “The hustle that gets you there doesn’t always serve you when you’re at the summit.”](/images/presentations/coaching_slides/slide_images.025.jpeg)
 
 Step 1, unfortunately, is that we have to look inside ourselves, to see how we got here. I’m sorry, I know many of us would prefer to skip this step, it can be – gross, in there. But we need to look, and pay attention to, all the great qualities that led us here – drive, and organization, and imagination –
 
@@ -221,6 +269,8 @@ So I have to make a deliberate decision: to start feeding other parts of me in a
 
 Those are the parts of me that I want to feed.
 
+![making the right choices takes effort](/images/presentations/coaching_slides/slide_images.026.jpeg)
+
 Small note, I say “I made a deliberate decision”, like, that was it, one time deal. Oh, no. No. Not at all. I make, and remake, and remake that decision, all the freaking time. The fear is _there_, just right under the surface, and all the time it sneaks out, and I live in that place, and I make decisions from that place, and then I have a moment of clarity, and –ah, shit– and I go back, and feed the parts that I want to grow.
 
 It gets easier. For a while there I would write every email or issue ticket or basecamp message twice. I’d write it, just the normal way, how I would always write. And then I have to take a step sideways, and edit out the fear, and add in some generosity, make that message come from the best version of myself.
@@ -229,6 +279,8 @@ When you make those revisions often enough, you can get to the point where you�
 
 Once we’ve done a little work to, well, get over ourselves, let’s look at some tactical, practical ways to help our teams understand the strategy and larger goals of a project.
 
+![tweet from Tiffany Bridge: “LOL forever at the idea that really extensive documentation makes a system quick to learn and easy to use.”](/images/presentations/coaching_slides/slide_images.027.jpeg)
+
 As I mentioned earlier, our traditional approach to training is sitting in a room, watching someone type on a screen. If you are very lucky, your training will also involve a really crappy catered lunch.
 
 And of course, a giant PDF training manual. Dense, confusing, and, of course, almost 100% guaranteed to out of date by the time you leave that room.
@@ -236,6 +288,8 @@ And of course, a giant PDF training manual. Dense, confusing, and, of course, al
 I’m willing to bet that every person in this room has attended a training like this. Most of us have probably _led_ training like this. I don’t need to do a lot of work to convince you they’re not very effective.
 
 There’s a caveat: this kind of training is not very effective _by itself_. As part of a larger suite, it’s a fine approach. Let’s talk about what else can make up the rest of that suite.
+
+![training comes in many flavors](/images/presentations/coaching_slides/slide_images.028.jpeg)
 
 Let’s start by recognizing that there are different kinds of training.There’s:
 
@@ -247,6 +301,8 @@ Let’s start by recognizing that there are different kinds of training.There’
 This last one, this gets skipped a lot, especially when you’re talking to people in the lowest ranks of the project – they get taught how to enter, I dunno, weekly meeting agendas and minutes into the website, but they never learn who wants them there, or how people are using them.
 
 Those aren’t all the types of training, of course, but most projects have at _least_ this many.You can’t jam all of this stuff into a single meeting. It’s different skill sets, probably different people, it’s different brain space. Understanding that these are all separate things to learn is the first step in teaching them in a way that’s effective.
+
+![training comes in many flavors](/images/presentations/coaching_slides/slide_images.029.jpeg)
 
 There are also lots of different formats training can take.
 
@@ -262,13 +318,18 @@ I like to say that **all documents are dictionaries**: important to have around,
 
 *   In-line CMS training, which is vastly underused. This is when you attach help text to each of the entry fields in your CMS, rather than segregating them to a training manual. You’re putting the instructions right where they’re needed, in the editing form.
 
+![quote from Sara Wachter-Boettcher: “Practice is about action. 
+It’s a thing you do, not a thing you receive.”](/images/presentations/coaching_slides/slide_images.030.jpeg)
+
 Let’s talk about making space for practice. My friend Sara Wachter-Boettcher wrote a great article called “[Less Training, More Practice](http://www.sarawb.com/2015/01/05/less-training-more-practice/)”, where she makes the point that
 
 > Practice is how we learned to do most of the things we’re good at: reading, writing, driving, cooking, whatever. We might have received training in a specific aspect of any of these things—Here’s how you make a cursive Q—but none of us mastered them that way.
-> 
+
 > We mastered them by doing them, over and over, until we built muscle memory—until making letterforms or parking between the lines or whisking flour and butter into a roux stopped feeling like a list of steps and started feeling natural. Until it became part of us.
 
 When you’re teaching your teams, it’s really important to give them the space to practice.Don’t just show them on a projector how to migrate content to the new CMS, have them practice, with real content, and talk through what parts make sense and what parts are tricky. When you’re explaining how this project will improve the experience for your site visitors, don’t just present 2 use cases and call it done. Have your team members build off of your examples, and identify more things that will be improved by this project’s success. It doesn’t matter if you’ve already thought of those things; the point is for your team to start to understand, at a deep intrinsic level, why you’re doing the project at all.
+
+![Repetition is crucial. Say it again. Don’t be afraid to repeat yourself. Say the same thing in four different ways. Explain the same issue from a bunch of different angles.](/images/presentations/coaching_slides/slide_images.031.jpeg)
 
 Thing 4: Repetition is crucial.
 
@@ -294,15 +355,21 @@ Y’all. That’s what I’d been saying for two straight days. That’s what I�
 
 And I realized some things I had been resisting about how teaching works, and how learning works, because I was trying to be efficient:
 
+![time is not optional](/images/presentations/coaching_slides/slide_images.034.jpeg)
+
 1) Time is not optional.
 
 The passage of time – just straight up calendar time, letting the hours tick by – is an under appreciated ingredient in teaching.
 
 I think about the ways we talk about learning new skills, about “making a habit” and “practicing every day”. Our assumption there is that the effort is the thing that makes a difference, but I’m beginning to suspect that the plain-old passage of time is the secret sauce. Sometimes, there’s nothing wrong with my explanation or my team members, but I have to give it a chance to percolate and be absorbed before it will click for people.
 
+![Repetition is crucial. Say it again. Don’t be afraid to repeat yourself. Say the same thing in four different ways. Explain the same issue from a bunch of different angles.](/images/presentations/coaching_slides/slide_images.031.jpeg)
+
 2) Repetition is crucial.
 
 Our brains need to be taught things a bunch of times before they start to make sense. It feels inefficient, but this is not an indication that my team isn’t paying attention, or that they’re dumb, it’s plain old human nature, and I fight it at my peril.
+
+![Spend time with differences](/images/presentations/coaching_slides/slide_images.036.jpeg)
 
 3) Spend time with the differences.
 
@@ -318,15 +385,21 @@ It only made sense once I stepped back and gave the full history: “We used to 
 
 The key here is not just to present the new way of doing things, but to **acknowledge that there was an old way**. People have their patterns, and their habits, and their shortcuts, and it doesn’t work to just drop off a new set of instructions and expect everyone to start following them. Help them find the path from the old way to the new way.
 
+![There is no magic explanation](/images/presentations/coaching_slides/slide_images.037.jpeg)
+
 Lastly: There is no magic explanation. This is the hardest one for me. That second morning, when the whole blog plan finally clicked for her, I immediately started thinking, “How did I just explain that? I should keep that explanation, and use it first next time.”
 
 I was looking for a warp zone, but: there is no secret key. I’ve been thinking of it like this:
+
+![secret door leading to a secret room](/images/presentations/coaching_slides/slide_images.038.jpeg)
 
 Every person, every situation, has some secret approach, that if you can just figure out, you unlock everything.
 
 The belief there is that I happened upon that magic key with my last explanation, and I could have saved a ton of time if I had started there.
 
 But really? It’s more like this:
+
+![puzzle pieces making up a complete image](/images/presentations/coaching_slides/slide_images.039.jpeg)
 
 All the pieces are necessary. If I had a do-over, and started with the perfect, last explanation, it _still_ would have taken two days. We needed to have that conversation about the writing team, we needed to talk about where users wanted to see the content. At some point, I had to redraw that stupid wireframe on the whiteboard, in real time.
 
@@ -342,6 +415,8 @@ I will give you one guess as to which path I’ve been finding more success with
 
 I’m going to wind up here with a few takeaways:
 
+![Focus on training strategy: start a new project by thinking about how you’ll train it.](/images/presentations/coaching_slides/slide_images.040.jpeg)
+
 **Focus on your training strategy**
 
 In a large sense, all the tactics I’ve been talking about today – the different types of training, the formats you can use to teach people – they’re all, fundamentally, about not treating your team like an afterthought. We get so focused on the thing that we’re building, we forget to make a real, cohesive, thought-out plan for how we’re going to teach people to use it, or how we’re going to teach our team to manage the project without us.
@@ -351,6 +426,8 @@ For your next project – or, a project that’s still in early stages – try i
 Every time a new feature gets added in the course of a project, ask again, “How are we going to teach people to use this correctly? What happens if they use it wrong?”
 
 On the flip side of that,
+
+![Focus on strategy training: help your team understand by making decisions out loud](/images/presentations/coaching_slides/slide_images.041.jpeg)
 
 **Focus on your strategy training**
 
@@ -364,11 +441,15 @@ Now, our old pal urgency likes to get in the way of explanations; urgency says t
 
 Well, yes, urgency, thank you for the feedback, but, well,it’s also faster to make cheese-whiz than aged cheddar, but that doesn’t mean it’s right.
 
+![Practice taking deep breaths. Your best self is closer than you think.](/images/presentations/coaching_slides/slide_images.042.jpeg)
+
 And finally,the work I’ve been talking about today that’s personal – digging into our egos and our pasts and our fears – that is legitimately terrifying work. And it can feel impossible. Here I am, encouraging you to repeat yourself over and over again in meetings, to be OK with people taking a long time to absorb new processes, to be gracious and understanding and gentle in situations that can be incredibly frustrating.
 
 It’s important to understand that that better version of our selves, that person that is kind and generous and full of grace – that person is already there, and is always there, and will always be there.
 
 Tapping into that version of yourself is not a matter of building a giant new skill, or filling a hole inside of you, or changing who you are,it’s more like cleaning up: clearing out the dust and cobwebs and the clutter and the mess, and revealing what lies underneath.
+
+![coaching success closing slide](/images/presentations/coaching_slides/slide_images.043.jpeg)
 
 Launching a new site or strategic initiative is exciting, but just developing the strategy by ourselves isn’t enough. We’ve got to take our entire team on the journey with us.
 
