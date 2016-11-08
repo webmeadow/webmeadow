@@ -4,9 +4,9 @@ title:  Be Your Own Project Manager
 date:   2015-05-24 18:49:42
 categories: presentations
 thumbnail: be-pm.png
-excerpt: Content strategists often find themselves leading teams and becoming impromptu project managers.
+excerpt: Content strategists often find themselves leading teams and becoming impromptu project managers. Here’s some advice on how to get stuff done without resorting to threats and bribes.
 ---
-<script async class=“speakerdeck-embed” data-id=“13bba38dd4094a08abce559783fd20cc” data-ratio=“1.77777777777778” src=“//speakerdeck.com/assets/embed.js”></script>
+<script async class="speakerdeck-embed" data-id="13bba38dd4094a08abce559783fd20cc" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 This talk was presented at [Confab Central](http://confabevents.com/) in May 2015.
 

@@ -6,9 +6,7 @@ categories: presentations
 thumbnail: saving-the-world.png
 excerpt: Non-profits have content challenges that are simultaneously unique and totally normal.
 ---
-
-<script async class=“speakerdeck-embed” data-id=“c544f4f0d797013133df5a22a46ecfd7” data-ratio=“1.33333333333333” src=“//speakerdeck.com/assets/embed.js”></script>
-
+<script async class="speakerdeck-embed" data-id="c544f4f0d797013133df5a22a46ecfd7" data-ratio="1.33" src="//speakerdeck.com/assets/embed.js"></script>
 
 This talk was presented at [Confab for Nonprofits](http://confabevents.com/past-events/for-nonprofits-2014/) in June 2014, and [Tag-IT](http://tag-it.no/) (Tromsø) in March 2015.
 

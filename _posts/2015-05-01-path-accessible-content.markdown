@@ -6,7 +6,7 @@ categories: presentations
 thumbnail: path-to-accessible.png
 excerpt: Let’s talk about accessibility. In particular, about how to talk your leadership and executive team into giving you a budget and a personnel commitment to make your content accessible.
 ---
-<script async class=“speakerdeck-embed” data-id=“471dec60c730013196d8061a363cc5d8” data-ratio=“1.33333333333333” src=“//speakerdeck.com/assets/embed.js”></script>
+<script async class="speakerdeck-embed" data-id="471dec60c730013196d8061a363cc5d8" data-ratio="1.33" src="//speakerdeck.com/assets/embed.js"></script>
 
 This lightning talk was presented at [Confab Central](http://confabevents.com) in May 2014. If you’re reading along with the slides, they track at roughly one paragraph per slide.
 

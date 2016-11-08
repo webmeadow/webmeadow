@@ -12,7 +12,7 @@ excerpt: Improving the back-end, administrative user experience for the folks wh
 
 Versions of this talk and workshop were presented at [UX Burlington](http://uxburlington.com/), [IA Summit](http://iasummit.org/), and [Confab Intensive](http://confabevents.com/events/intensive). 
 
-<iframe src=“https://player.vimeo.com/video/138048606?title=0&amp;portrait=0” webkitallowfullscreen=“” mozallowfullscreen=“” allowfullscreen=“” frameborder=“0” height=“281” width=“500”></iframe>
+<iframe src="https://player.vimeo.com/video/138048606?title=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 Video courtesy [Design & Content](http://designcontentconf.com/) in Vancouver, BC.
 
