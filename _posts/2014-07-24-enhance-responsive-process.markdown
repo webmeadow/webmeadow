@@ -127,10 +127,9 @@ I see two common patterns:
 
 There are a couple of things to remember, if you take that path.
 
-1.  Show content by default, then hide it with JavaScript. That way if the JS loading freaks out, the content is still there. If you hide it with a display:none in the CSS and rely on the JS to change that, there’s no way for a broken JS person to get to the content.
-2.  The whole page is still being loaded (pictures, text, etc). Be mindful of page weight. Just because you don’t see it doesn’t mean it’s not being downloaded.
+1.  Show content by default, then hide it with JavaScript. That way if the JS loading freaks out, the content is still there. If you hide it with a display:none in the CSS and rely on the JS to change that, there’s no way for a broken JS person to get to the content. The whole page is still being loaded (pictures, text, etc). Be mindful of page weight. Just because you don’t see it doesn’t mean it’s not being downloaded.
 
-#2: Truncation. Something like: where you normally display the whole teaser, show just the title on a small screen. If you’re going to truncate, make sure content structure and editorial decisions support truncation.
+2. Truncation. Something like: where you normally display the whole teaser, show just the title on a small screen. If you’re going to truncate, make sure content structure and editorial decisions support truncation.
 
 In a full teaser, these titles are cute and funny. But by themselves?? This first one [“Spring for a Party!”] is uselessly vague, and the second [“Colorful Rubber Orbs of Joy”] is straight-up creepy.
 

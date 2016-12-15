@@ -1,9 +1,14 @@
+- name: Confab Central
+  month: Jun
+  day: 7-9
+  url: http://confabevents.com/events/central-2017
+
+- name: Design & Content
+  month: Jul
+  day: 17-19
+  url: http://designcontentconf.com/
+
 - name: Confab Intensive
   month: Sep
-  day: 19-21
-  url: http://confabevents.com/events/intensive/2016/
-
-- name: NAGW Annual Conference
-  month: Sep
-  day: 21-23
-  url: http://nagw.org/conference/2016
+  day: 11-13
+  url: http://confabevents.com/events/intensive-2017

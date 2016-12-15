@@ -251,9 +251,7 @@ OK. So apparently I’ve decided to base part of my sense of self-worth on how r
 
 ![tweet from Lin-Manuel Miranda: “The hustle that gets you there doesn’t always serve you when you’re at the summit.”](/images/presentations/coaching_slides/slide_images.025.jpeg)
 
-Step 1, unfortunately, is that we have to look inside ourselves, to see how we got here. I’m sorry, I know many of us would prefer to skip this step, it can be – gross, in there. But we need to look, and pay attention to, all the great qualities that led us here – drive, and organization, and imagination –
-
-and also look at some of the less savory elements that got us here: competitiveness, and fear, and the need to be liked.
+Step 1, unfortunately, is that we have to look inside ourselves, to see how we got here. I’m sorry, I know many of us would prefer to skip this step, it can be – gross, in there. But we need to look, and pay attention to, all the great qualities that led us here – drive, and organization, and imagination – and also look at some of the less savory elements that got us here: competitiveness, and fear, and the need to be liked.
 
 Dig in, a little bit, on the parts of ourselves that we are feeding when we’re in complete control of a project.
 
