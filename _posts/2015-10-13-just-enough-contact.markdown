@@ -25,7 +25,7 @@ excerpt: It’s our job as project leaders to recognize mismatched communication
 <li>Deadlines that are <em>just barely</em> made or missed</li>
 <li>I have to ask for something 3 times before I get a response</li>
 <li>There are deliverables that aren’t quite up to snuff, so we need extra rounds of internal revision before showing stakeholders</li>
-<ul>
+</ul>
 
 <p>Sometimes I feel a little annoyed and sometimes my team members feel a little grumpy. But overall, everything is fine.</p>
 
@@ -42,7 +42,7 @@ excerpt: It’s our job as project leaders to recognize mismatched communication
 <li>How long will this research take? I dunno,…two weeks?</li>
 <li>Is there already a module for this CMS feature? Yes?, but it might need a lot of work?</li>
 <li>Does the team assigned to this project have the skills to build it? They’ve built something similar in the past, so probably?</li>
-<ul>
+</ul>
 
 <p>Long ago — I feel like this is one of the first lessons a PM gets — I learned that anything having to do with <em>time</em> is. Project plans, timelines, gantt charts: those are all based on guesses, right? Educated guesses, maybe, but: guesses. And, honestly, that’s fine. Because when you know that something is based on a guess, you adjust your level of confidence, you add in some padding, you know it can change.</p>
 
@@ -250,6 +250,3 @@ Well, if I’m going to send the email anyway, but I’m not certain the person 
 
 <p>Because I <em>can’t</em> change another person. I can only change myself. When something goes wrong on a project, if I want it fixed, then <em>I have to fix it</em>. I can’t magically grant a team member CSS skills, or make someone a morning person, or force them to love gantt charts. But I can adjust my approach – in the way I talk, in the way I plan, in the way I manage. It’s my job to be aware of my assumptions and make space for those team members to do their best possible work.</p>
 
-<p>I am Aaron Parkening, Director of Project Strategy at webmeadow, and thanks for your time today.</p>
-</body>
-</html>
