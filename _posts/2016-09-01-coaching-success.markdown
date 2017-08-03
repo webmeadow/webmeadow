@@ -7,7 +7,7 @@ thumbnail: coaching_slides/slide_images.001.jpeg
 excerpt: The strongest project strategies are the ones that integrate specific plans for teaching and training team members.
 ---
 ![Coaching Success: Training Strategies for Building Strong Teams](/images/presentations/coaching_slides/slide_images.001.jpeg)
-This was originally presented at [National Association of Government Web Professionals Conference](http://nagw.org/conference/2016) in September 2016. 
+This was presented at [National Association of Government Web Professionals Conference](http://nagw.org/conference/2016) (September 2016), [Confab Central](http://confabevents.com/) (June 2017), and the [Design & Content Conf](http://designcontentconf.com/) (July 2017).
 
 ## Full Transcript
 
