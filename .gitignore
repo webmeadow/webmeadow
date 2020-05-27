@@ -4,3 +4,4 @@
 /_gems/
 /.bundle/
 /.sass-cache/
+.DS_Store
