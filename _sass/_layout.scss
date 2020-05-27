@@ -80,7 +80,6 @@
     display: table;
     margin: .3em auto 0 auto;
     width: 100%;
-    font-family: $font-body;
     vertical-align: middle;
     background: url(../images/retina/topo_circle.jpg);
     background-repeat: no-repeat;
@@ -103,7 +102,7 @@
       font-size: 1.2em;
       @include breakpoint($break-tablet) { font-size: 1.5em; }
       display: table-cell;
-      font-family: $font-script;
+      font-family: $font-body;
       vertical-align: middle;
       text-transform: uppercase;
       font-style: normal;
@@ -136,7 +135,7 @@
       margin: 0 auto;
       padding: .5em 0 .5em 0;
       margin-bottom: .5em;
-      font-family: $font-body;
+      font-family: $font-script;
       font-weight: bold;
       font-size: 1.1em;
       border-bottom: 2px dashed $grey;
