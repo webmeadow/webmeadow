@@ -80,6 +80,7 @@
     display: table;
     margin: .3em auto 0 auto;
     width: 100%;
+    font-family: $font-body;
     vertical-align: middle;
     background: url(../images/retina/topo_circle.jpg);
     background-repeat: no-repeat;
@@ -135,6 +136,7 @@
       margin: 0 auto;
       padding: .5em 0 .5em 0;
       margin-bottom: .5em;
+      font-family: $font-body;
       font-weight: bold;
       font-size: 1.1em;
       border-bottom: 2px dashed $grey;
