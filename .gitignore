@@ -5,3 +5,4 @@
 /.bundle/
 /.sass-cache/
 .DS_Store
+s3_website.yml
