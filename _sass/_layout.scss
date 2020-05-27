@@ -102,7 +102,7 @@
       font-size: 1.2em;
       @include breakpoint($break-tablet) { font-size: 1.5em; }
       display: table-cell;
-      font-familh: $font-script;
+      font-family: $font-script;
       vertical-align: middle;
       text-transform: uppercase;
       font-style: normal;
@@ -264,6 +264,10 @@
     background-image: url(../images/retina/marriott_logo.png);
     background-size: 167px 82px;    
   }
+  .shriver {
+    background-image: url(../images/retina/shriver_logo.png);
+    background-size: 167px 116px;    
+  }
   .ritz {
     background-image: url(../images/retina/ritz_logo.png);
     background-size: 174px 121px;
@@ -286,6 +290,18 @@
   .ala {
     background-image: url(../images/retina/ala_logo.png);
     background-size: 224px 28px;
+  }
+  .kidney {
+    background-image: url(../images/retina/kidney_logo.png);
+    background-size: 105px 136px;
+  }
+  .fws {
+    background-image: url(../images/retina/fws_logo.png);
+    background-size: 103px 127px;
+  }
+  .jj {
+    background-image: url(../images/retina/jj_logo.png);
+    background-size: 250px 45px;
   }
 }
 
