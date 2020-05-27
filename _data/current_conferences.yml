@@ -1,14 +1,14 @@
-- name: Confab Central
+- name: DrupalCon
+  month: Apr
+  day: 9-13
+  url: https://events.drupal.org/nashville2018
+
+- name: SRCCON
   month: Jun
-  day: 7-9
-  url: http://confabevents.com/events/central-2017
-
-- name: Design & Content
-  month: Jul
-  day: 17-19
-  url: http://designcontentconf.com/
-
-- name: Confab Intensive
+  day: 28-29
+  url: http://srccon.org
+  
+- name: Digital PM Summit
   month: Sep
-  day: 11-13
-  url: http://confabevents.com/events/intensive-2017
+  day: 4-6
+  url: http://bureauofdigital.com/summits/digital-pm  
